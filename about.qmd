@@ -2,7 +2,10 @@
 title: "About"
 ---
 
-Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas (frecuentistas y bayesianas) y modelos de regresión múltiple, tanto jerárquicos como no jerárquicos.
+<div style="display: flex; align-items: center; gap: 20px;">
+
+<div style="flex: 1;">
+Aquí va tu texto sobre ti. Puedes escribir todo lo que quieras sobre tu experiencia, proyectos y cualquier otra información relevante.Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas (frecuentistas y bayesianas) y modelos de regresión múltiple, tanto jerárquicos como no jerárquicos.
 
 Actualmente, me desempeño como Analista Especializado en el Consejo Nacional de Humanidades, Ciencia y Tecnología (Conahcyt), donde participo en el seguimiento técnico de proyectos de investigación científica. Entre mis contribuciones destacan el desarrollo de algoritmos de OCR para la extracción automatizada de información, la creación de herramientas para la gestión de publicaciones científicas mediante APIs como Crossref, y la implementación de rúbricas estadísticas para la evaluación de proyectos. Además, he liderado la administración de bases de datos y la generación de reportes técnicos para más de 250 proyectos.
 
@@ -11,14 +14,9 @@ Anteriormente, trabajé como Data Science Analyst en Jüsto, donde desarrollé s
 Complemento mi experiencia profesional con una vocación por la docencia, habiendo sido Profesor Ayudante en la Facultad de Ciencias de la UNAM en áreas como Termodinámica, Fenómenos Colectivos, y Cálculo Integral y Diferencial. Además, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes.
 
 Mi enfoque se centra en combinar técnicas avanzadas de análisis de datos con una visión estratégica para impulsar la eficiencia y la innovación en proyectos técnicos y científicos. Estoy comprometido con la excelencia y la aplicación de metodologías rigurosas para resolver problemas complejos.
-
-<div style="display: flex; align-items: center; gap: 20px;">
-
-<div style="flex: 1;">
-Aquí va tu texto sobre ti. Puedes escribir todo lo que quieras sobre tu experiencia, proyectos y cualquier otra información relevante.
 </div>
 
-<img src="images/japt.jpeg" width="200px" style="border-radius: 50%;">
+<img src="images/japt.jpeg" width="200px" style="border-radius: 20%;">
   
 </div>
 
