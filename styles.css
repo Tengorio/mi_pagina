@@ -1,4 +1,17 @@
 /* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
 /* Paleta de colores */
 :root {
     --color-primario: #437679;
@@ -64,17 +77,4 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
-
-body {
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-}
-
-h1, h2, h3 {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 700;
 }
