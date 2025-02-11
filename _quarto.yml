@@ -13,6 +13,7 @@ website:
         text: Proyectos
 format:
   html:
+    include-in-header: styles.css
     theme: cosmo
     css: styles.css
     toc: true

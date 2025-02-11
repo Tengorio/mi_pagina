@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Página Personal JAPT</title>
+<title>Arbol de Links – Página Personal JAPT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,12 +66,92 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+</head><body class="nav-fixed">/* css styles */
+/* Paleta de colores */
+:root {
+    --color-primario: #437679;
+    --color-secundario: #5A989B;
+    --color-fondo: #F5F7F6;
+    --color-texto: #2A2A2A;
+    --color-enlaces: #2B6777;
+}
+
+/* Fondo y texto principal */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: var(--color-enlaces);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+}
+
+/* Personalización de la barra de navegación */
+.navbar {
+    background-color: var(--color-primario);
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: var(--color-secundario);
+}
+
+/* Botones */
+button, .btn {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: var(--color-secundario);
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: var(--color-primario);
+}
+
+/* Centrar los enlaces en la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Libre+Baskerville:wght@400;700&amp;display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
 
 
 <link rel="stylesheet" href="styles.css">
-</head>
 
-<body class="nav-fixed">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,11 +169,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Sobre mí</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Link tree</span></a>
   </li>  
   <li class="nav-item">
@@ -119,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Arbol de Links</h1>
 </div>
 
 
@@ -136,15 +216,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="display: flex; align-items: right; gap: 20px;">
-<div style="flex: 1;">
-<p>Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas (frecuentistas y bayesianas) y modelos de regresión múltiple, tanto jerárquicos como no jerárquicos.</p>
-<p>Actualmente, me desempeño como Analista Especializado en ña Secretaría de Cinencia, Humanidades, Tecnología e Inovación (SECIHTI), donde participo en el seguimiento técnico de proyectos de investigación científica. Entre mis contribuciones destacan la implementación de algoritmos de OCR para la extracción automatizada de información, la creación de herramientas para la verificación y gestión de publicaciones científicas mediante APIs como Crossref, y el desarrollo de rúbricas estadísticas para la evaluación de proyectos de investigación científica.</p>
-<p>Anteriormente, trabajé como Data Science Analyst en Jüsto, donde desarrollé soluciones innovadoras como la reasignación de zonas de reparto utilizando ArcGIS y la clusterización de clientes mediante técnicas de machine learning (k-means y PCA).</p>
-<p>Complemento mi experiencia profesional con una vocación por la docencia, habiendo sido Profesor Ayudante en la Facultad de Ciencias de la UNAM en áreas como Termodinámica, Fenómenos Colectivos, y Cálculo Integral y Diferencial. Además, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes.</p>
-</div>
-<p><img src="images/japt.jpeg" width="300px" style="border-radius: 5%;"></p>
-</div>
+<p>Aquí podrás encontrar enlaces a mis redes y proyectos.</p>
 
 
 
