@@ -15,6 +15,4 @@ format:
   html:
     theme: cosmo
     toc: true
-output-dir: docs
-
 
