@@ -16,7 +16,7 @@ Complemento mi experiencia profesional con una vocación por la docencia, habien
 </div>
 
 <div style="display: flex; justify-content: center;">
-  <img src="images/japt.jpeg" width="250px" style="border-radius: 50%;">
+  <img src="images/japt.jpeg" width="300px" style="border-radius: 5%;">
 </div>
 
 </div>s
