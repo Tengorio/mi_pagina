@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Mi Página Personal"
+  title: "Página Personal JAPT"
   navbar:
     left:
       - href: index.qmd
