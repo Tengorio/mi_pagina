@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-<div style="display: flex; align-items: center; gap: 20px;">
+<div style="display: flex; align-items: right; gap: 20px;">
 
 <div style="flex: 1;">
 
@@ -16,7 +16,7 @@ Complemento mi experiencia profesional con una vocación por la docencia, habien
 
 </div>
 
-<img src="images/japt.jpeg" width="400px" style="border-radius: 5%;">
+<img src="images/japt.jpeg" width="300px" style="border-radius: 5%;">
   
 </div>
 
