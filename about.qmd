@@ -19,4 +19,4 @@ Complemento mi experiencia profesional con una vocación por la docencia, habien
   <img src="images/japt.jpeg" width="300px" style="border-radius: 5%;">
 </div>
 
-</div>s
+</div>
