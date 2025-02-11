@@ -5,10 +5,10 @@ website:
   title: "Página Personal JAPT"
   navbar:
     left:
-      - href: index.qmd
-        text: Inicio
       - href: about.qmd
         text: Sobre mí
+      - href: index.qmd
+        text: Link tree
       - href: projects.qmd
         text: Proyectos
 format:

@@ -58,3 +58,10 @@ button:hover, .btn:hover {
 h1, h2, h3 {
     color: var(--color-primario);
 }
+
+/* Centrar los enlaces en la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
