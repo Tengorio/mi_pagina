@@ -1,5 +1,5 @@
 --- 
-Title: Curso de Termodinámica
+Title: Miscelanea de proyectos
 ---
 
-Condenido del curso
+Lista de proyectos

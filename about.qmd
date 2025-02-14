@@ -1,18 +1,17 @@
 ---
-title: "About"
+title: "Sobre mi"
 ---
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 20px;">
 
 <div style="text-align: justify; font-family: 'Georgia', serif;">
 
-Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas (frecuentistas y bayesianas) y modelos de regresión múltiple, tanto jerárquicos como no jerárquicos.
+Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados. 
 
-Actualmente, me desempeño como Analista Especializado en ña Secretaría de Cinencia, Humanidades, Tecnología e Inovación (SECIHTI), donde participo en el seguimiento técnico de proyectos de investigación científica. Entre mis contribuciones destacan la implementación de algoritmos de OCR para la extracción automatizada de información, la creación de herramientas para la verificación y gestión de publicaciones científicas mediante APIs como Crossref, y el desarrollo de rúbricas estadísticas para la evaluación de proyectos de investigación científica. 
+Actualmente, me desempeño como Analista Especializado en la Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI), donde participo en el seguimiento técnico de proyectos de investigación científica. Entre mis contribuciones destacan: la implementación de algoritmos de OCR para la extracción automatizada de información, la creación de herramientas para la validación de publicaciones científicas mediante APIs como Crossref, y el desarrollo de modelos estadísticos. 
+Anteriormente, trabajé como Data Science Analyst en Jüsto, donde desarrollé soluciones innovadoras como la reasignación de zonas de reparto utilizando ArcGIS y la clusterización de clientes mediante técnicas de machine learning. 
 
-Anteriormente, trabajé como Data Science Analyst en Jüsto, donde desarrollé soluciones innovadoras como la reasignación de zonas de reparto utilizando ArcGIS y la clusterización de clientes mediante técnicas de machine learning (k-means y PCA).
-
-Complemento mi experiencia profesional con una vocación por la docencia, habiendo sido Profesor Ayudante en la Facultad de Ciencias de la UNAM en áreas como Termodinámica, Fenómenos Colectivos, y Cálculo Integral y Diferencial. Además, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes.
+Complemento mi experiencia profesional con una vocación por la docencia. He impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo. Además, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes.
 </div>
 
 <div style="display: flex; justify-content: center;">
