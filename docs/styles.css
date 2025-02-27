@@ -39,7 +39,7 @@ a {
 
 /* Personalización de la barra de navegación */
 .navbar {
-    background-color: var(--color-primario);
+    background-color: var(--color-secundario);
     color: white;
 }
 
@@ -48,7 +48,7 @@ a {
 }
 
 .navbar a:hover {
-    color: var(--color-secundario);
+    color: var(--color-primario);
 }
 
 /* Botones */
@@ -79,13 +79,6 @@ button, .btn {
     padding: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   }
-
-  
-  .about-text {
-    flex: 1;  /* Ocupa la mitad del espacio */
-    text-align: justify;
-    font-size: 9pt;
-  }
     
 .columns {
     display: flex;
@@ -96,10 +89,4 @@ button, .btn {
     flex: 1;
     min-width: 300px; /* Asegura que las columnas tengan un mínimo de tamaño */
     padding: 10px;
-  }
-
-  @media (max-width: 768px) {
-    .columns {
-      flex-direction: column;
-    }
   }
