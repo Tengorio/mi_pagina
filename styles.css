@@ -110,6 +110,10 @@ button, .btn {
     flex: 1;  /* Ocupa la mitad del espacio */
     text-align: justify;
   }
+
+  .about-text p {
+    font-size: 9pt;
+  }
   
   .about-image {
     flex: 1;
