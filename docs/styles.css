@@ -126,3 +126,6 @@ button, .btn {
     border-radius: 10px; /* Bordes redondeados opcionales */
   }
   
+.columns {
+    display: flex;
+}
