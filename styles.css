@@ -80,15 +80,8 @@ button, .btn {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-.about-container {
-    display: flex;
-    align-items: center;  /* Centra verticalmente */
-    justify-content: space-between;  /* Separa las columnas */
-    max-width: 900px;
-    margin: auto;
-  }
   
-  .about-text p{
+  .about-text {
     flex: 1;  /* Ocupa la mitad del espacio */
     text-align: justify;
     font-size: 9pt;
