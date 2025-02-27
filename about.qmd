@@ -17,4 +17,4 @@ title: "Sobre mi"
   </div>
 
 </div>
-```{html}
+```
