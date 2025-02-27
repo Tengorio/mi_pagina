@@ -13,7 +13,7 @@ title: "Sobre mi"
 ::::
 ::::{.column width="40%"}
 
-![](images/japt.jpg){width=100% style="border-radius: 10px;"}
+![](images/japt.jpeg){width=100% style="border-radius: 10px;"}
 
 ::::
 :::

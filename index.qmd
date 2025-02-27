@@ -2,4 +2,7 @@
 title: "Arbol de Links"
 ---
 
+<meta http-equiv="refresh" content="0; url=about.html">
+
+
 Aquí podrás encontrar enlaces a mis redes y proyectos.
