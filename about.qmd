@@ -9,9 +9,11 @@ css: styles.css
 ![](images/japt.jpeg)
 :::
 
-::: {.about-content}
 
 ::: {.column width="70%" style="padding-left: 20px;"}
+
+::: {.about-content}
+
 <div class="about-content">
 <p>Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados. </p>
 
