@@ -1,43 +1,47 @@
-/* css styles */
+/* CSS Styles */
 
+/* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
 
-body {
-    display: flex;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    background-color: #F4F4F4;
-    color: #003366; /* Texto principal */
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
-    font-family: Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 700;
-    color: #4A148C;
-}
-
-/* Enlaces */
-a {
-    color: #009688;
-    text-decoration: none;
-    color: var(--color-enlaces);
-    text-decoration: none;
-  }
-
-  
-/* Paleta de colores */
+/* Variables de color */
 :root {
     --color-primario: #437679;
     --color-secundario: #5A989B;
     --color-fondo: #F5F7F6;
     --color-texto: #2A2A2A;
     --color-enlaces: #2B6777;
+    --color-acento: #FF6F61;
+    --color-boton: #009688;
+    --color-boton-hover: #00796B;
 }
 
-/* Personalización de la barra de navegación */
+/* Estilo global */
+body {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: #4A148C; /* Asegúrate de que este color sea consistente */
+}
+
+/* Enlaces */
+a {
+    color: var(--color-enlaces);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primario);
+}
+
+/* Barra de navegación */
 .navbar {
     background-color: var(--color-secundario);
     color: white;
@@ -53,33 +57,34 @@ a {
 
 /* Botones */
 button, .btn {
-    background-color: #009688;
+    background-color: var(--color-boton);
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
 
-  button:hover, .btn:hover {
-    background-color: #00796B;
-  }
+button:hover, .btn:hover {
+    background-color: var(--color-boton-hover);
+}
 
 /* Elementos con acento */
 .accent {
-    color: #FF6F61;
+    color: var(--color-acento);
     font-weight: bold;
-  }
-  
+}
+
 /* Tarjetas o cajas */
- .card {
+.card {
     background: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  }
-    
+}
+
+/* Diseño de columnas */
 .columns {
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +94,19 @@ button, .btn {
     flex: 1;
     min-width: 300px; /* Asegura que las columnas tengan un mínimo de tamaño */
     padding: 10px;
-  }
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .column {
+        flex: 1 1 100%; /* Las columnas se apilarán en pantallas pequeñas */
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    button, .btn {
+        width: 100%; /* Los botones serán más grandes en dispositivos pequeños */
+    }
+}
