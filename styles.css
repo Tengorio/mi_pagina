@@ -110,3 +110,13 @@ button:hover, .btn:hover {
         width: 100%; /* Los botones serán más grandes en dispositivos pequeños */
     }
 }
+
+/* Estilo para la sección "about" */
+.about {
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    padding: 15px; /* Ajuste de padding para un buen espaciado */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: justify; /* Justifica el texto */
+    line-height: 1.6; /* Mejora la legibilidad con mayor espacio entre líneas */
+    margin: 0 auto; /* Centra el contenido si hay márgenes automáticos */
+}
