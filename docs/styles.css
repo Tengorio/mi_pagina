@@ -111,9 +111,23 @@ button:hover, .btn:hover {
     }
 }
 
-.about-content {
-    text-align: justify;
+.about-container {
+    display: flex;
+    align-items: flex-start;  /* Alinea el contenido (imagen y texto) hacia arriba */
+    justify-content: space-between;  /* Espacio entre la imagen y el texto */
+    gap: 20px;  /* Espacio entre la imagen y el texto */
     width: 100%;
-    margin: 0 auto;
+  }
+
+  .about-image {
+    max-width: 40%;  /* Controla el tamaño de la imagen */
+    height: auto;    /* Mantiene la relación de aspecto */
+  }
+
+  .about-content {
+    flex: 1;            /* Hace que el texto ocupe el resto del espacio disponible */
+    text-align: justify; /* Justifica el texto */
+    margin: 0;
     padding: 15px;
-}
+    line-height: 1.6;
+  }
