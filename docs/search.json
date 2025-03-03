@@ -11,6 +11,20 @@
     "href": "index.html",
     "title": "Sobre mí",
     "section": "",
-    "text": "Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados.\n\nExperiencia Profesional\nActualmente, me desempeño como Analista Especializado en la Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI), donde participo en el seguimiento técnico de proyectos de investigación científica. Entre mis contribuciones destacan: la implementación de algoritmos de OCR para la extracción automatizada de información, la creación de herramientas para la validación de publicaciones científicas mediante APIs como Crossref, y el desarrollo de modelos estadísticos.\nAnteriormente, trabajé como Data Science Analyst en Jüsto, donde desarrollé soluciones innovadoras como la reasignación de zonas de reparto utilizando ArcGIS y la clusterización de clientes mediante técnicas de machine learning.\nComplemento mi experiencia profesional con una vocación por la docencia. He impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo. Además, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes."
+    "text": "Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados."
+  },
+  {
+    "objectID": "index.html#experiencia-profesional",
+    "href": "index.html#experiencia-profesional",
+    "title": "Sobre mí",
+    "section": "Experiencia Profesional",
+    "text": "Experiencia Profesional\nAnalista Especializado | Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI).\n\nSeguimiento técnico de proyectos de investigación científica.\nImplementación de algoritmos de OCR para la extracción automatizada de información.\nConstrucción y mejora de herramientas para la validación de publicaciones científicas mediante API Crossref.\nDesarrollo de modelos estadísticos.\n\nData Science Analyst | Jüsto,\n\nDesarrollo de soluciones innovadoras para la reasignación de zonas de reparto utilizando ArcGIS.\nModelo de Clusterización de clientes mediante técnicas de machine learning."
+  },
+  {
+    "objectID": "index.html#eperiencia-docente",
+    "href": "index.html#eperiencia-docente",
+    "title": "Sobre mí",
+    "section": "Eperiencia Docente",
+    "text": "Eperiencia Docente\nHe impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo.\nAdemás, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes."
   }
 ]
