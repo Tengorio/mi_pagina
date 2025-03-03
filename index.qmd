@@ -1,6 +1,7 @@
 ---
 title: "Sobre mí"
 about: 
+    id: sobre_mi
     template: solana
     image: images/japt.jpeg
     links: 
@@ -12,7 +13,11 @@ about:
           href: https://x.com/tengorio
 ---
 
+:::{#sobre_mi}
+
 Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados.
+
+:::
 
 ## Experiencia Profesional
 
