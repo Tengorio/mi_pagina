@@ -5,10 +5,8 @@ website:
   title: "Javier Arturo Paredes Tenorio"
   navbar:
     left:
-      - href: about.qmd
-        text: Sobre mí
       - href: index.qmd
-        text: Link tree
+        text: Inicio | Sobre mi
       - href: projects.qmd
         text: Proyectos
 format:

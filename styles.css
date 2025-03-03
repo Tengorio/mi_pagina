@@ -84,17 +84,6 @@ button:hover, .btn:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Diseño de columnas */
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.column {
-    flex: 1;
-    min-width: 300px; /* Asegura que las columnas tengan un mínimo de tamaño */
-    padding: 10px;
-}
 
 /* Responsividad para pantallas pequeñas */
 @media (max-width: 768px) {
@@ -110,24 +99,3 @@ button:hover, .btn:hover {
         width: 100%; /* Los botones serán más grandes en dispositivos pequeños */
     }
 }
-
-.about-container {
-    display: flex;
-    align-items: flex-start;  /* Alinea el contenido (imagen y texto) hacia arriba */
-    justify-content: space-between;  /* Espacio entre la imagen y el texto */
-    gap: 10px;  /* Espacio entre la imagen y el texto */
-    width: 100%;
-  }
-
-  .about-image {
-    max-width: 70%;  /* Controla el tamaño de la imagen */
-    height: auto;    /* Mantiene la relación de aspecto */
-  }
-
-  .about-content {
-    flex: 1;            /* Hace que el texto ocupe el resto del espacio disponible */
-    text-align: justify; /* Justifica el texto */
-    margin: 0;
-    padding: 5px;
-    line-height: 1.6;
-  }
