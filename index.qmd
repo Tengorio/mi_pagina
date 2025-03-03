@@ -1,7 +1,7 @@
 ---
 title: "Sobre mí"
 about: 
-    template: trestles
+    template: solana
     image: images/japt.jpeg
     links: 
         - icon: github
@@ -16,14 +16,14 @@ Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y
 
 ## Experiencia Profesional
 
-*Analista Especializado* | Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI).
+**Analista Especializado** | Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI).
 
 - Seguimiento técnico de proyectos de investigación científica. 
 - Implementación de algoritmos de OCR para la extracción automatizada de información. 
 - Construcción y mejora de herramientas para la validación de publicaciones científicas mediante API Crossref.
 - Desarrollo de modelos estadísticos. 
 
-*Data Science Analyst* | Jüsto, 
+**Data Science Analyst** | Jüsto (Supermercado online)
 
 - Desarrollo de soluciones innovadoras para la reasignación de zonas de reparto utilizando ArcGIS.
 - Modelo de Clusterización de clientes mediante técnicas de machine learning.
