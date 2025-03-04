@@ -5,10 +5,15 @@
 
 /* Variables de color */
 :root {
-    --color-primario: #437679;
+    /* #0b4749 */
+    --color-primario: #29145f;
     --color-secundario: #5A989B;
     --color-fondo: #F5F7F6;
     --color-texto: #181818;
+    --color-enlaces: #096f9b;
+
+    --color-boton: #009688;
+    --color-boton-hover: #00796B;
 }
 
 /* Estilo global */
@@ -28,9 +33,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* Enlaces */
+a {
+    color: var(--color-enlaces);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primario);
+}
+
 /* Barra de navegación */
 .navbar {
-    background-color: var(--color-primario);
+    background-color: var(--color-secundario);
     color: white;
 }
 
@@ -38,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-a {
-    color: var(--color-enlaces);
-    text-decoration: none;
+.navbar a:hover {
+    color: var(--color-primario);
 }
