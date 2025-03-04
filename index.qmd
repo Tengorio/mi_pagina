@@ -33,7 +33,7 @@ Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y
 - Desarrollo de soluciones innovadoras para la reasignación de zonas de reparto utilizando ArcGIS.
 - Modelo de Clusterización de clientes mediante técnicas de machine learning.
 
-## Eperiencia Docente
+## Experiencia Docente
 
 He impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo. 
 
