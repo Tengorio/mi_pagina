@@ -4,27 +4,13 @@
     "href": "projects.html",
     "title": "Página personal de Javier Tenorio",
     "section": "",
-    "text": "Lista de proyectos"
+    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\\[\\begin{equation}\nx = \\frac{1}{2}\n\\end{equation}\\]"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sobre mí",
     "section": "",
-    "text": "Github\n  \n  \n    \n     X\n  \n\n      \nSoy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados."
-  },
-  {
-    "objectID": "index.html#experiencia-profesional",
-    "href": "index.html#experiencia-profesional",
-    "title": "Sobre mí",
-    "section": "Experiencia Profesional",
-    "text": "Experiencia Profesional\nAnalista Especializado | Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI).\n\nSeguimiento técnico de proyectos de investigación científica.\nImplementación de algoritmos de OCR para la extracción automatizada de información.\nConstrucción y mejora de herramientas para la validación de publicaciones científicas mediante API Crossref.\nDesarrollo de modelos estadísticos.\n\nData Science Analyst | Jüsto (Supermercado online)\n\nDesarrollo de soluciones innovadoras para la reasignación de zonas de reparto utilizando ArcGIS.\nModelo de Clusterización de clientes mediante técnicas de machine learning."
-  },
-  {
-    "objectID": "index.html#experiencia-docente",
-    "href": "index.html#experiencia-docente",
-    "title": "Sobre mí",
-    "section": "Experiencia Docente",
-    "text": "Experiencia Docente\nHe impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo.\nAdemás, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes."
+    "text": "Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados.\n\nExperiencia Profesional\nAnalista Especializado | Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI).\n\nSeguimiento técnico de proyectos de investigación científica.\nImplementación de algoritmos de OCR para la extracción automatizada de información.\nConstrucción y mejora de herramientas para la validación de publicaciones científicas mediante API Crossref.\nDesarrollo de modelos estadísticos.\n\nData Science Analyst | Jüsto (Supermercado online)\n\nDesarrollo de soluciones innovadoras para la reasignación de zonas de reparto utilizando ArcGIS.\nModelo de Clusterización de clientes mediante técnicas de machine learning.\n\n\n\nExperiencia Docente\nHe impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo.\nAdemás, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes."
   }
 ]

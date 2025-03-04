@@ -8,17 +8,13 @@
     --color-primario: #437679;
     --color-secundario: #5A989B;
     --color-fondo: #F5F7F6;
-    --color-texto: #2A2A2A;
-    --color-enlaces: #2B6777;
-    --color-acento: #FF6F61;
-    --color-boton: #009688;
-    --color-boton-hover: #00796B;
+    --color-texto: #181818;
 }
 
 /* Estilo global */
 body {
     display: flex;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     font-weight: 400;
     background-color: var(--color-fondo);
     color: var(--color-texto);
@@ -26,76 +22,18 @@ body {
 
 /* Títulos */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 700;
-    color: #4A148C; /* Asegúrate de que este color sea consistente */
+    /*font-family: 'Libre Baskerville', serif; */
+    font-weight: 1000;
+    color: #4A145f; /* Asegúrate de que este color sea consistente */
 }
 
-/* Enlaces */
-a {
-    color: var(--color-enlaces);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--color-primario);
-}
 
 /* Barra de navegación */
 .navbar {
-    background-color: var(--color-secundario);
+    background-color: var(--color-primario);
     color: white;
 }
 
 .navbar a {
     color: white;
-}
-
-.navbar a:hover {
-    color: var(--color-primario);
-}
-
-/* Botones */
-button, .btn {
-    background-color: var(--color-boton);
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover, .btn:hover {
-    background-color: var(--color-boton-hover);
-}
-
-/* Elementos con acento */
-.accent {
-    color: var(--color-acento);
-    font-weight: bold;
-}
-
-/* Tarjetas o cajas */
-.card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-/* Responsividad para pantallas pequeñas */
-@media (max-width: 768px) {
-    .column {
-        flex: 1 1 100%; /* Las columnas se apilarán en pantallas pequeñas */
-    }
-
-    .navbar {
-        text-align: center;
-    }
-
-    button, .btn {
-        width: 100%; /* Los botones serán más grandes en dispositivos pequeños */
-    }
 }

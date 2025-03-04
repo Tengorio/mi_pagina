@@ -13,13 +13,12 @@ about:
           href: https://x.com/tengorio
 ---
 
-:::{#sobre_mi}
+:::{##sobre_mi}
 
 Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y análisis estadístico, con una sólida trayectoria en la implementación de soluciones tecnológicas para la automatización de procesos y la toma de decisiones basada en datos. Cuento con experiencia en el desarrollo e implementación de algoritmos avanzados, diseño de experimentos, inferencias estadísticas y modelos de regresión múltiple generalizados.
 
-:::
 
-## Experiencia Profesional
+### Experiencia Profesional
 
 **Analista Especializado** | Secretaría de Ciencia, Humanidades, Tecnología e Inovación (SECIHTI).
 
@@ -33,8 +32,11 @@ Soy un profesional especializado en ciencia de datos, aprendizaje automatizado y
 - Desarrollo de soluciones innovadoras para la reasignación de zonas de reparto utilizando ArcGIS.
 - Modelo de Clusterización de clientes mediante técnicas de machine learning.
 
-## Experiencia Docente
+### Experiencia Docente
 
 He impartiendo cursos como Profesor Ayudante en la Facultad de Ciencias de la UNAM desde 2019 en áreas como Termodinámica, Fenómenos Colectivos, Cálculo Integral y Diferencial y Electromagnetismo. 
 
 Además, he colaborado como tallerista en el Programa Adopte Un Talento (PAUTA), fomentando el interés por la ciencia en jóvenes.
+
+
+:::
