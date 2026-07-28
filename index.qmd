@@ -19,9 +19,9 @@ Algoritmo de priorización lexicográfica con criterios de equidad social para ~
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### [MundialMove — Movilidad Urbana](proyectos/mundialmove.qmd)
-**Machine Learning / Streamlit**  
-Aplicación interactiva con Random Forest ($R^2 = 0.978$), ruteo geoespacial en Folium e integración de LLM para itinerarios inteligentes en CDMX.
+### [Pipeline OCR — Azure API](proyectos/ocr-azure.qmd)
+**Ingeniería de Datos / Automatización**  
+Extracción automatizada de parámetros por contexto en comprobantes probatorios y validación bibliográfica vía API de Crossref.
 :::
 
 ::: {.g-col-12 .g-col-md-4}

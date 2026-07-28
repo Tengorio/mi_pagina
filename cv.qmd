@@ -4,8 +4,7 @@ subtitle: "Javier Arturo Paredes Tenorio"
 ---
 
 :::{.callout-note appearance="simple"}
-[Descargar CV en PDF (assets/cv-japt.pdf)](assets/cv-japt.pdf){.btn .btn-primary target="_blank"} &nbsp;
-[Descargar CV en Word (assets/CV_JAPT_ENERO2026.docx)](assets/CV_JAPT_ENERO2026.docx){.btn .btn-outline-secondary target="_blank"}
+[Descargar CV en PDF (assets/cv-japt.pdf)](assets/cv-japt.pdf){.btn .btn-primary target="_blank"}
 :::
 
 ---
@@ -42,6 +41,10 @@ Especialista en Estadística Aplicada (IIMAS, UNAM) y Físico (Facultad de Cienc
 - Reasignación estratégica de zonas de reparto implementando la API de ArcGIS en Python.
 - Clusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).
 - Construcción de un índice cuantitativo para identificar productos propensos a falta de inventario (*Never Stock Out*).
+
+### **Participaciones Destacadas**
+**Impact Lab de Claude (Anthropic)**
+- Participación en el programa de desarrollo e investigación analítica con inteligencia artificial aplicados a herramientas de IA y modelos predictivos.
 
 ### **Programa Adopte Un Talento (PAUTA)**
 *Julio 2023 – Agosto 2023*

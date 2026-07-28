@@ -14,10 +14,8 @@ Enfoque cuantitativo aplicado a decisiones con impacto real. Cada caso documenta
 - **[Pipeline de extracción documental con OCR](proyectos/ocr-azure.qmd)**  
   Automatización de captura sobre comprobantes y validación mediante la API de Crossref.
 
-## Herramientas y Machine Learning
+## Herramientas y Aplicaciones
 
-- **[MundialMove — Movilidad urbana en CDMX](proyectos/mundialmove.qmd)**  
-  Aplicación interactiva en Streamlit con Random Forest ($R^2 = 0.978$), mapas en Folium e itinerarios optimizados.
 - **[picnik_webapp — Cinética térmica isoconversional](proyectos/picnik.qmd)**  
   Plataforma web para el análisis de energía de activación a partir de curvas TGA.
 

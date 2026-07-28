@@ -47,6 +47,10 @@ Físico y especialista en estadística aplicada con experiencia en el sector pú
 - Clusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).
 - Construcción de un índice cuantitativo para la identificación y prevención de agotados (*Never Stock Out*).
 
+### **Participaciones Destacadas**
+**Impact Lab de Claude (Anthropic)**
+- Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y soluciones con Inteligencia Artificial.
+
 ---
 
 ## Docencia Universitaria

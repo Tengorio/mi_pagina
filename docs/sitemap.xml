@@ -2,35 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tengorio.github.io/sobre-mi.html</loc>
-    <lastmod>2026-07-28T00:47:41.102Z</lastmod>
+    <lastmod>2026-07-28T16:32:36.042Z</lastmod>
   </url>
   <url>
     <loc>https://tengorio.github.io/proyectos/picnik.html</loc>
     <lastmod>2026-07-28T00:25:50.698Z</lastmod>
   </url>
   <url>
-    <loc>https://tengorio.github.io/proyectos/mundialmove.html</loc>
-    <lastmod>2026-07-28T00:25:45.622Z</lastmod>
+    <loc>https://tengorio.github.io/proyectos/apees.html</loc>
+    <lastmod>2026-07-28T00:25:43.630Z</lastmod>
   </url>
   <url>
-    <loc>https://tengorio.github.io/proyectos.html</loc>
-    <lastmod>2026-07-28T00:25:54.870Z</lastmod>
+    <loc>https://tengorio.github.io/index.html</loc>
+    <lastmod>2026-07-28T16:31:26.497Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tengorio.github.io/cv.html</loc>
+    <lastmod>2026-07-28T16:32:41.234Z</lastmod>
   </url>
   <url>
     <loc>https://tengorio.github.io/en/index.html</loc>
     <lastmod>2026-07-27T02:17:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://tengorio.github.io/cv.html</loc>
-    <lastmod>2026-07-28T00:48:00.858Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tengorio.github.io/index.html</loc>
-    <lastmod>2026-07-28T00:25:53.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tengorio.github.io/proyectos/apees.html</loc>
-    <lastmod>2026-07-28T00:25:43.630Z</lastmod>
+    <loc>https://tengorio.github.io/proyectos.html</loc>
+    <lastmod>2026-07-28T16:31:27.360Z</lastmod>
   </url>
   <url>
     <loc>https://tengorio.github.io/proyectos/ocr-azure.html</loc>
