@@ -1,0 +1,51 @@
+---
+title: "Sobre mí"
+subtitle: "Javier Arturo Paredes Tenorio"
+---
+
+Físico y analista estadístico con especial interés en la intersección entre métodos cuantitativos rigurosos y el desarrollo de sistemas de software que los ponen a operar.
+
+## Trayectoria
+
+Mi formación comenzó en la **Licenciatura en Física en la Facultad de Ciencias (UNAM)**, donde desarrollé el pensamiento analítico orientado a primeros principios y el modelado cuantitativo de sistemas complejos. Posteriormente concreté la **Especialización en Estadística Aplicada en el IIMAS (UNAM)**, enfocándome en inferencia estadística, análisis de datos multinivel y aprendizaje automático.
+
+En el sector público federal (Secihti / Conahcyt) he diseñado y puesto en producción algoritmos de asignación masiva de recursos, modelos de supervivencia para procesos de evaluación y pipelines automatizados de extracción documental. Previamente me desempeñé como Data Science Analyst en el sector privado (Jüsto), optimizando zonas de reparto geoespaciales y clustering de clientes.
+
+## Experiencia profesional
+
+- **Analista Especializado / Científico de Datos** | *Secihti* (antes Conahcyt) — *Enero 2025 – Presente*
+  - Diseño e implementación del algoritmo APEES para la priorización lexicográfica de ~5,000 proyectos de investigación.
+  - Modelación de análisis de supervivencia para estimar tiempos de respuesta de dictaminadores académicos.
+  - Desarrollo de motores de asignación presupuestal y tableros estadísticos institucionales.
+- **Analista Especializado** | *Conahcyt* — *Agosto 2024 – Diciembre 2024*
+  - Pipelines de extracción documental con OCR y validación de metadatos vía API de Crossref.
+- **Data Science Analyst** | *Jüsto* — *Marzo 2024 – Agosto 2024*
+  - Optimización y reasignación de zonas de cobertura geoespacial mediante ArcGIS y Python.
+  - Clustering de clientes para estrategias de retención y logística.
+- **Consultor Cuantitativo** | *Gradiente* — *2023 – Presente*
+  - Consultoría independiente en análisis cienciométrico, modelos estadísticos y optimización de procesos.
+
+## Docencia universitaria
+
+**Profesor de Asignatura / Ayudante de Profesor** | *Facultad de Ciencias, UNAM (2019 – 2025)*
+Cursos impartidos:
+- Cálculo Diferencial e Integral I, II, III y IV
+- Termodinámica y Fenómenos Colectivos
+- Laboratorio de Mecánica y Laboratorio de Electromagnetismo
+- Tallerista en el programa Adopte Un Talento (PAUTA)
+
+## Formación académica
+
+- **Especialización en Estadística Aplicada** — *IIMAS, UNAM (2023–2024)*. Titulado por Examen General de Conocimientos.
+- **Licenciatura en Física** — *Facultad de Ciencias, UNAM (2015–2021)*. Tesis: *Espectrómetro didáctico de bajo costo con aplicaciones forenses*.
+
+## Idiomas y Stack
+
+- **Idiomas:** Español (nativo), Inglés (C1), Alemán (A2).
+- **Stack:** Python (`pandas`, `NumPy`, `scikit-learn`, `Streamlit`), R, SQL, LaTeX, QGIS/ArcGIS, Power BI, Git, Quarto.
+
+---
+
+### Contacto
+
+[GitHub](https://github.com/tengorio)

@@ -1,0 +1,29 @@
+---
+title: "picnik_webapp: Análisis isoconversional en cinética térmica"
+description: "Aplicación web en Streamlit para el cálculo de energía de activación y cinética de reacción mediante métodos isoconversionales."
+categories: [Física, Python, Streamlit, Ciencia de Datos]
+date: last-modified
+---
+
+## El problema
+
+En el análisis térmico de materiales, el cálculo de parámetros cinéticos (como la energía de activación $E_a$) a partir de datos experimentales de termogravimetría (TGA) suele requerir software propietario costoso o scripts locales difíciles de mantener y compartir entre laboratorios de investigación.
+
+## El enfoque
+
+Desarrollé **picnik_webapp**, una aplicación web interactiva en Streamlit que automatiza el análisis isoconversional no isotérmico. Permite a investigadores cargar archivos experimentales, procesar curvas de conversión $\alpha(T)$ y calcular la dependencia de la energía de activación con el avance de reacción.
+
+## La decisión técnica que no era obvia
+
+**Se implementó la aproximación numérica directa de la integral de temperatura mediante métodos iterativos de convergencia rápida en lugar de usar aproximaciones lineales clásicas simplificadas (como Flynn-Wall-Ozawa).**
+
+Las aproximaciones lineales clásicas introducen errores sistemáticos considerables cuando la energía de activación varía fuertemente con la conversión. El cálculo iterativo exacto implementado en `picnik_webapp` garantiza máxima precisión física sin incrementar el tiempo de cómputo en la interfaz de usuario.
+
+## Resultado
+
+Herramienta analítica abierta, accesible y utilizada en el entorno académico para el cálculo cinético rápido e interactivo de materiales.
+
+## Stack y código
+
+- **Stack:** Python (`Streamlit`, `SciPy`, `NumPy`, `matplotlib`).
+- **Código:** [picnik_webapp en GitHub](https://github.com/Tengorio/picnik_webapp).

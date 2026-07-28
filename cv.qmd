@@ -1,0 +1,75 @@
+---
+title: "Currículum Vitae"
+subtitle: "Javier Arturo Paredes Tenorio"
+---
+
+:::{.callout-note appearance="simple"}
+[Descargar versión oficial en PDF (assets/cv-japt.pdf)](assets/cv-japt.pdf){.btn .btn-primary target="_blank"} *(El archivo PDF se actualizará al incorporar la versión maestra oficial)*.
+:::
+
+---
+
+## Perfil Profesional
+
+**Científico de datos y estadístico aplicado** con formación previa en física por la UNAM y especialización en estadística por el IIMAS. Experiencia en diseño e implementación de modelos predictivos, algoritmos de optimización lexicográfica, análisis de supervivencia y desarrollo de herramientas de software interactivas para la toma de decisiones en el sector público federal y privado.
+
+---
+
+## Experiencia Laboral
+
+### **Analista Especializado / Científico de Datos**
+**Secretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)**  
+*Enero 2025 – Presente | Ciudad de México*
+
+- Diseñé e implementé el algoritmo **APEES** (*Algoritmo de Priorización con Equidad y Estructura Social*), un motor de priorización lexicográfica sobre ~5,000 propuestas científicas para la asignación transparente y equitativa de fondos públicos.
+- Desarrollé modelos formales de **Análisis de Supervivencia** (Kaplan-Meier y Cox Proportional Hazards) para caracterizar la distribución temporal de tiempos de respuesta de dictaminadores académicos.
+- Construí tableros de control estadísticos y pipelines automatizados para el seguimiento técnico de proyectos de investigación.
+
+### **Analista Especializado**
+**Conahcyt**  
+*Agosto 2024 – Diciembre 2024 | Ciudad de México*
+
+- Diseñé pipelines de extracción documental con algoritmos OCR y validación automatizada de metadatos científicos mediante la API de Crossref.
+- Desarrollé modelos estadísticos para el monitoreo de convocatorias institucionales.
+
+### **Data Science Analyst**
+**Jüsto (Supermercado Digital)**  
+*Marzo 2024 – Agosto 2024 | Ciudad de México*
+
+- Desarrollé soluciones geoespaciales para la reasignación óptima de zonas de reparto utilizando ArcGIS y Python.
+- Diseñé modelos de clustering de clientes para segmentación comportamental y estrategias de retención.
+
+### **Consultor Cuantitativo**
+**Gradiente**  
+*2023 – Presente | Ciudad de México*
+
+- Análisis cienciométrico, modelado estadístico y optimización de procesos para clientes de investigación y tecnología.
+
+---
+
+## Experiencia Docente
+
+### **Profesor de Asignatura / Ayudante de Profesor**
+**Facultad de Ciencias, UNAM**  
+*2019 – 2025 | Ciudad de México*
+
+- **Asignaturas:** Cálculo Diferencial e Integral I–IV, Termodinámica, Fenómenos Colectivos, Laboratorio de Mecánica y Laboratorio de Electromagnetismo.
+- **Divulgación:** Tallerista en el programa Adopte Un Talento (PAUTA).
+
+---
+
+## Formación Académica
+
+- **Especialización en Estadística Aplicada**  
+  *Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM* (2023–2024)  
+  *Titulado por Examen General de Conocimientos.*
+- **Licenciatura en Física**  
+  *Facultad de Ciencias, UNAM* (2015–2021)  
+  *Tesis:* Espectrómetro didáctico de bajo costo con aplicaciones forenses.
+
+---
+
+## Idiomas y Habilidades Técnicas
+
+- **Idiomas:** Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico).
+- **Lenguajes y Herramientas:** Python (`pandas`, `scikit-learn`, `Streamlit`, `NumPy`), R (`survival`), SQL, LaTeX, Quarto, Git, QGIS/ArcGIS, Power BI.

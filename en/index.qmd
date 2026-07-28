@@ -1,0 +1,9 @@
+---
+title: "Javier Arturo Paredes Tenorio"
+subtitle: "Data scientist · Applied statistics, machine learning, automation"
+---
+
+<!-- AGENTE: no traducir literal, reescribir. Inglés técnico: más corto y
+     más directo que el español. Prioridad: index → 3 casos P1 → cv. -->
+
+TODO

@@ -1,0 +1,29 @@
+---
+title: "MundialMove: Predicción de movilidad urbana e itinerarios inteligentes para CDMX"
+description: "Aplicación interactiva en Streamlit con modelos de Machine Learning (R² = 0.978) y LLM para razonamiento geoespacial durante eventos masivos."
+categories: [Machine Learning, Python, Streamlit, Geoespacial]
+date: last-modified
+---
+
+## El problema
+
+Durante eventos deportivos masivos de escala internacional como la Copa Mundial 2026, la red de transporte de la Ciudad de México sufre niveles extremos de saturación impredecible. Las aplicaciones comerciales de navegación optimizan rutas individuales sin considerar el impacto sistémico de cierres viales masivos ni el flujo peatonal en nodos clave de transferencia.
+
+## El enfoque
+
+Desarrollé **MundialMove**, una plataforma analítica e interactiva en Streamlit que combina modelos supervisados de Machine Learning para estimar tiempos de traslado y congestión vehicular con visualización geoespacial interactiva en Folium y un motor de razonamiento contextual basado en LLM para recomendar itinerarios óptimos en tiempo real.
+
+## La decisión técnica que no era obvia
+
+**Se descartó la consulta en tiempo real a APIs de ruteo externo (como Google Maps o Mapbox) como motor principal de estimación, reemplazándolas por un modelo propio Random Forest ajustado sobre series históricas de velocidad y aforo.**
+
+Depender exclusivamente de llamadas API externas introducía latencia inaceptable, costos recurrentes por consulta masiva y fallas de predicción durante eventos donde las condiciones históricas cambian por cierres viales decretados por la autoridad. El modelo Random Forest local alcanzó un ajuste de $R^2 = 0.978$ en la estimación de tiempos de viaje segmentados por franja horaria y polígono urbano, ejecutándose de forma ultrarrápida sin dependencias externas.
+
+## Resultado
+
+Predicción de tiempos de traslado con un coeficiente de determinación $R^2 = 0.978$ sobre validación cruzada. La plataforma responde consultas interactivas de ruteo geoespacial e itinerarios en menos de 300 ms por petición.
+
+## Stack y código
+
+- **Stack:** Python (`scikit-learn`, `Streamlit`, `Folium`, `pandas`, `geopandas`).
+- **Código:** [Repositorio en GitHub](https://github.com/tengorio/mundialmove) *(próximamente disponible)*.

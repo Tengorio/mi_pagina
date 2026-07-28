@@ -1,0 +1,29 @@
+---
+title: "Pipeline automatizado de extracción documental y validación con OCR"
+description: "Procesamiento masivo de expedientes probatorios mediante OCR y enriquecimiento de metadatos con la API de Crossref."
+categories: [Python, OCR, Automatización, API Integration]
+date: last-modified
+---
+
+## El problema
+
+La validación manual de miles de expedientes académicos y documentos probatorios de investigación generaba una carga operativa masiva e ineficiente. La verificación de autenticidad de artículos científicos y comprobantes requería contrastar manualmente la información del documento impreso o PDF contra registros oficiales.
+
+## El enfoque
+
+Diseñé e implementé un pipeline automatizado de procesamiento documental que integra motores de OCR para la extracción estructurada de texto sobre expedientes digitalizados y conecta de forma transparente con la API de Crossref para validar y enriquecer automáticamente los metadatos bibliográficos de las publicaciones.
+
+## La decisión técnica que no era obvia
+
+**Se descartó el parsing basado en reglas de expresiones regulares sobre el texto completo extraído por OCR, implementando en su lugar una extracción posicional por bloques combinada con búsqueda difusa (*fuzzy matching*) sobre metadatos externos.**
+
+El OCR sobre documentos escaneados introduce errores de digitalización (ej. confundir 'O' con '0' o 'l' con '1'). Las expresiones regulares estrictas fallaban en más del 30% de los documentos debido a ligeras variaciones de formato o caracteres con ruido. Al utilizar emparejamiento difuso contra las bases de datos de Crossref, el sistema valida la autenticidad del trabajo incluso ante imperfecciones leves en el OCR.
+
+## Resultado
+
+Reducción sustancial del tiempo de revisión por expediente y automatización de la verificación bibliográfica de publicaciones científicas.
+
+## Stack y código
+
+- **Stack:** Python (`requests`, `pdfplumber`, `pytesseract`, `pandas`).
+- **Código público relacionado:** [`doi_metadata_extractor`](https://github.com/Tengorio/doi_metadata_extractor) y [`directorio-secihti`](https://github.com/Tengorio/directorio-secihti).

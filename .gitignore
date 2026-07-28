@@ -1,0 +1,9 @@
+/.quarto/
+/_site/
+.Rproj.user
+__pycache__/
+.venv/
+.env
+*.ipynb_checkpoints
+.DS_Store
+

@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "proyectos/*.qmd"
+    - "en/*.qmd"
+    - "!CLAUDE.md"
+    - "!GEMINI.md"
+    - "!proyectos/_plantilla.qmd"
+
+website:
+  title: "Javier Arturo Paredes Tenorio"
+  description: "Científico de datos · Estadística aplicada, machine learning y automatización"
+  site-url: "https://tengorio.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: proyectos.qmd
+        text: Proyectos
+      - href: sobre-mi.qmd
+        text: Sobre mí
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/tengorio
+        aria-label: GitHub
+      - href: en/index.qmd
+        text: EN
+  page-footer:
+    center: "Javier Arturo Paredes Tenorio · Ciudad de México"
+
+format:
+  html:
+    theme: [cosmo, assets/css/custom.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+

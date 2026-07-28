@@ -1,0 +1,37 @@
+---
+title: "Javier Arturo Paredes Tenorio"
+subtitle: "Científico de datos · Estadística aplicada, machine learning y automatización"
+page-layout: full
+---
+
+Físico por la UNAM con especialización en estadística aplicada por el IIMAS. Construyo modelos estadísticos rigurosos y las herramientas operativas que los ponen a funcionar en producción. Actualmente trabajo en la secretaría federal de ciencia (Secihti), donde diseñé el algoritmo que prioriza la asignación de fondos de investigación científica en México.
+
+---
+
+## Estudios de caso destacados
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### [APEES — Priorización de Fondos](proyectos/apees.qmd)
+**Sector Público / Optimización**  
+Algoritmo de priorización lexicográfica con criterios de equidad social para ~5,000 proyectos de investigación. Sustitución de media por mediana ponderada y franjas equivalentes.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [MundialMove — Movilidad Urbana](proyectos/mundialmove.qmd)
+**Machine Learning / Streamlit**  
+Aplicación interactiva con Random Forest ($R^2 = 0.978$), ruteo geoespacial en Folium e integración de LLM para itinerarios inteligentes en CDMX.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Supervivencia en Evaluación](proyectos/supervivencia-evaluadores.qmd)
+**Análisis de Supervivencia / R & Python**  
+Modelos de Kaplan-Meier y Cox Proportional Hazards con censura por la derecha para estimar tiempos de respuesta de dictaminadores.
+:::
+
+:::
+
+---
+
+[Ver todos los proyectos](proyectos.qmd) · [Trayectoria y experiencia](sobre-mi.qmd) · [Currículum Vitae](cv.qmd) · [GitHub](https://github.com/tengorio)

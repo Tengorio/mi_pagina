@@ -1,0 +1,29 @@
+---
+title: "Estudios de caso"
+subtitle: "El problema, la decisión técnica no obvia y el resultado cuantitativo."
+---
+
+Enfoque cuantitativo aplicado a decisiones con impacto real. Cada caso documenta el problema resuelto, la alternativa técnica descartada y las métricas obtenidas.
+
+## Sector público y optimización
+
+- **[APEES — Priorización de fondos con criterios de equidad](proyectos/apees.qmd)**  
+  Algoritmo de priorización lexicográfica con criterios de equidad social sobre ~5,000 proyectos de investigación.
+- **[Análisis de supervivencia en procesos de evaluación](proyectos/supervivencia-evaluadores.qmd)**  
+  Estimación de tiempos de respuesta de dictaminadores académicos mediante modelos de Kaplan-Meier y Cox.
+- **[Pipeline de extracción documental con OCR](proyectos/ocr-azure.qmd)**  
+  Automatización de captura sobre comprobantes y validación mediante la API de Crossref.
+
+## Herramientas y Machine Learning
+
+- **[MundialMove — Movilidad urbana en CDMX](proyectos/mundialmove.qmd)**  
+  Aplicación interactiva en Streamlit con Random Forest ($R^2 = 0.978$), mapas en Folium e itinerarios optimizados.
+- **[picnik_webapp — Cinética térmica isoconversional](proyectos/picnik.qmd)**  
+  Plataforma web para el análisis de energía de activación a partir de curvas TGA.
+
+## Repositorios de código público
+
+- [`picnik_webapp`](https://github.com/Tengorio/picnik_webapp) — Aplicación web para análisis cinético isoconversional.
+- [`doi_metadata_extractor`](https://github.com/Tengorio/doi_metadata_extractor) — Extractor automatizado de metadatos de artículos vía DOI/Crossref.
+- [`directorio-secihti`](https://github.com/Tengorio/directorio-secihti) — Utilidades de estructuración de información institucional.
+- [`IsoTablas`](https://github.com/Tengorio/IsoTablas) — Herramientas analíticas complementarias para termogravimetría.

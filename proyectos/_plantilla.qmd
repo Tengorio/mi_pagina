@@ -1,0 +1,42 @@
+---
+title: "TÍTULO DEL CASO"
+description: "Una línea que diga qué se resolvió y con qué."
+date: last-modified
+categories: [estadística, python]
+---
+
+<!-- PLANTILLA. Copiar este archivo, no editarlo.
+     Estructura obligatoria (ver CLAUDE.md §6). 400–700 palabras.
+     Revisar confidencialidad (CLAUDE.md §7) antes de publicar. -->
+
+## El problema
+
+Qué estaba roto, para quién, y por qué importaba. Dos o tres frases.
+Sin contexto institucional de más: al lector le importa el problema, no el
+organigrama.
+
+## El enfoque
+
+Qué hice, a grandes rasgos. Un párrafo.
+
+## La decisión que no era obvia
+
+**Esta es la sección que importa.** Qué alternativa razonable descarté y por
+qué. El lector técnico juzga aquí si sé lo que hago.
+
+Ejemplo del tono buscado: "usé la mediana en lugar de la media porque las
+distribuciones de calificación estaban sesgadas a la izquierda y había
+heterogeneidad de escala entre evaluadores; la media premiaba a quien caía
+con un evaluador generoso."
+
+## Resultado
+
+Un número, o una declaración honesta de que no se midió.
+No inventar métricas.
+
+## Stack
+
+Python (pandas, scikit-learn) · R · SQL
+
+Código: [repositorio](https://github.com/tengorio/...) — o bien:
+*el código no es público por tratarse de un sistema institucional.*

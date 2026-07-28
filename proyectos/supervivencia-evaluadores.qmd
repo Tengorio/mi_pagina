@@ -1,0 +1,29 @@
+---
+title: "Modelación de supervivencia en tiempos de respuesta de evaluación dictaminadora"
+description: "Modelos de análisis de supervivencia (Kaplan-Meier y Cox Proportional Hazards) para estimar la probabilidad de aceptación de evaluadores."
+categories: [Análisis de Supervivencia, Estadística Aplicada, R, Python]
+date: last-modified
+---
+
+## El problema
+
+En los procesos de evaluación de proyectos públicos, el tiempo de respuesta de los dictaminadores invitados es un cuello de botella crítico. Las invitaciones no atendidas a tiempo generan retrasos en cadena en la emisión de resultados. Se requería predecir la probabilidad de respuesta en función del tiempo para optimizar el calendario de invitaciones y recordatorios sin saturar a la comunidad académica.
+
+## El enfoque
+
+Apliqué técnicas formales de **Análisis de Supervivencia** (*Survival Analysis*) tratando el tiempo hasta la respuesta o declinación de la invitación como la variable de interés con censura por la derecha. Utilicé estimadores de Kaplan-Meier para caracterizar la función de supervivencia general y modelos de riesgos proporcionales de Cox para identificar los factores asociados al sesgo de respuesta.
+
+## La decisión técnica que no era obvia
+
+**Se rechazó el modelado de regresión logística binaria convencional (aceptó / no aceptó) en favor de un enfoque formal de análisis de supervivencia con censura por la derecha.**
+
+La regresión logística ignoraba la dimensión temporal del proceso y trataba por igual a un evaluador que rechazó a las 2 horas que a uno que no respondió porque la convocatoria cerró al día 5. El análisis de supervivencia permitió incorporar observaciones censuradas (evaluaciones aún abiertas) y calcular la mediana estimada de tiempo hasta la respuesta ($t_{50}$), determinando el momento óptimo para activar solicitudes de reemplazo sin sobre-invitar evaluadores.
+
+## Resultado
+
+Identificación del umbral temporal crítico a partir del cual la probabilidad marginal de respuesta decae drásticamente, reduciendo el tiempo total de conformación de comités dictaminadores y optimizando la tasa de respuesta efectiva.
+
+## Stack y código
+
+- **Stack:** R (`survival`, `survminer`), Python (`lifelines`, `pandas`).
+- **Código:** *Información metodológica abstraída. Los datos e indicadores específicos se protegen conforme a la política de confidencialidad institucional.*

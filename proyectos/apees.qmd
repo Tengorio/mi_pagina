@@ -1,0 +1,29 @@
+---
+title: "APEES: Algoritmo de priorización lexicográfica para la asignación de fondos de investigación"
+description: "Optimización de priorización lexicográfica con criterios de equidad sobre ~5,000 proyectos de investigación científica."
+categories: [Estadística Aplicada, Python, Optimización, Sector Público]
+date: last-modified
+---
+
+## El problema
+
+En los procesos de asignación de fondos para investigación científica, los métodos tradicionales de ordenamiento basados en promedios simples imponen sesgos sistemáticos que favorecen a instituciones consolidadas y penalizan a grupos emergentes o regionales. Se requería un mecanismo de ordenamiento que mantuviera la excelencia académica como criterio primario mientras incorporaba de forma rigurosa criterios de equidad y desarrollo regional sobre un volumen de aproximadamente 5,000 propuestas evaluadas.
+
+## El enfoque
+
+Diseñé e implementé el algoritmo **APEES** (*Algoritmo de Priorización con Equidad y Estructura Social*), un motor cuantitativo estructurado en fases lexicográficas sucesivas. El sistema evalúa iterativamente las propuestas respetando la jerarquía de mérito técnico e introduce franjas de desempate y priorización condicional basadas en métricas de impacto regional, disciplina y representatividad institucional.
+
+## La decisión técnica que no era obvia
+
+**Se sustituyó la media aritmética por la mediana ponderada en la consolidación de puntuaciones de los dictaminadores, y se descartó el ordenamiento lineal continuo en favor de franjas de equivalencia discreta.**
+
+Las evaluaciones individuales presentaban un marcado sesgo a la izquierda y una alta heterogeneidad en la escala de severidad de los evaluadores (un evaluador estricto asignaba un máximo de 80/100 mientras que uno laxo otorgaba 98/100). Usar la media aritmética provocaba que la calificación final dependiera fuertemente de la aleatoriedad en la asignación del dictaminador. La mediana neutralizó la sensibilidad a valores extremos, y la discretización en franjas equivalentes permitió aplicar criterios lexicográficos de equidad en la franja crítica de corte presupuestal sin vulnerar el mérito académico.
+
+## Resultado
+
+El algoritmo procesó y ordenó la totalidad de las solicitudes de la convocatoria (~5,000 propuestas), automatizando un proceso que previamente tomaba semanas de negociación manual a un tiempo de ejecución de segundos. Se eliminó la dispersión arbitraria por efecto evaluador y se garantizó trazabilidad matemática al 100% en el dictamen final.
+
+## Stack y código
+
+- **Stack:** Python (`pandas`, `NumPy`, `scipy`), R, LaTeX.
+- **Código:** *El código fuente exacto y los parámetros vigentes se mantienen en reserva institucional por normativa de la secretaría federal. Se incluirá un script con datos sintéticos representativos para demostración metodológica.*
