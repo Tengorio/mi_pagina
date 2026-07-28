@@ -158,26 +158,27 @@ Antes de realizar cualquier commit y push a la rama `main`, se deben verificar l
 
 ## 11. Backlog priorizado de tareas
 
-### **P0 — Correcciones inmediatas (Daño reputacional actual)**
-- [ ] **Eliminar / reemplazar contenido demo por defecto de Quarto:** Remover la vista `projects.html` / demo polar de matplotlib con $x = 1/2$. Asegurar que el menú de proyectos dirija únicamente a contenido real o deshabilitarlo temporalmente.
-- [ ] **Preparar migración de URL/Repo:** Planear el renombrado del repositorio de `mi_pagina` a `tengorio.github.io`.
-- [ ] **Actualizar `sobre-mi.qmd`:** Reescribir la trayectoria congelada en 2024 para reflejar la experiencia actual (2025–2026 en Secihti: APEES, modelos de supervivencia, motores de asignación, etc.).
+### **P0 — Correcciones inmediatas (Completadas)**
+- [x] **Eliminar / reemplazar contenido demo por defecto de Quarto:** Remover la vista `projects.html` / demo polar de matplotlib con $x = 1/2$. Asegurar que el menú de proyectos dirija únicamente a contenido real. *(Completado)*
+- [x] **Configuración de entorno y despliegue SSH:** Instalación de Quarto CLI v1.6.40 y autenticación SSH en GitHub (`compu_secihti`). *(Completado)*
+- [x] **Actualizar `sobre-mi.qmd`:** Trayectoria actualizada 2025–2026 e integración de la fotografía profesional (`assets/img/javier_paredes.jpg`). *(Completado)*
+- [x] **Integración del CV Maestro:** Versión HTML en `cv.qmd`, compilación del PDF en `assets/cv-japt.pdf` y enlace al Word maestro de Enero 2026. *(Completado)*
 
-### **P1 — Los tres estudios de caso principales**
-- [ ] `apees.qmd`: Algoritmo de priorización lexicográfica con criterios de equidad sobre ~5,000 proyectos de investigación. *(Aplicar política de confidencialidad y datos sintéticos).*
-- [ ] `mundialmove.qmd`: Aplicación de movilidad urbana en Streamlit con Random Forest ($R^2 = 0.978$), Folium e integración de LLM para razonamiento geoespacial.
-- [ ] `supervivencia-evaluadores.qmd`: Modelado de análisis de supervivencia para estimación de tiempos de respuesta a invitaciones de evaluación dictaminadora. *(Aplicar política de confidencialidad).*
+### **P1 — Los tres estudios de caso principales (Estructurados — Siguiente paso: afinación fina)**
+- [ ] `apees.qmd`: Algoritmo de priorización lexicográfica con criterios de equidad sobre ~5,000 proyectos de investigación. *(Cascarón de 5 secciones creado; pendiente script de datos sintéticos y visualización).*
+- [ ] `mundialmove.qmd`: Aplicación de movilidad urbana en Streamlit con Random Forest ($R^2 = 0.978$), Folium e integración de LLM para razonamiento geoespacial. *(Cascarón de 5 secciones creado).*
+- [ ] `supervivencia-evaluadores.qmd`: Modelado de análisis de supervivencia para estimación de tiempos de respuesta a invitaciones de evaluación dictaminadora. *(Cascarón de 5 secciones creado; pendiente curvas sintéticas de Kaplan-Meier).*
 
 ### **P2 — Completar portafolio y conexión de repositorios**
-- [ ] `ocr-azure.qmd`: Pipeline automatizado de extracción documental.
-- [ ] `picnik.qmd`: Aplicación en Streamlit para análisis isoconversional en cinética térmica (`picnik_webapp`).
-- [ ] Vincular repositorios públicos existentes en el sitio (`picnik_webapp`, `doi_metadata_extractor`, `directorio-secihti`, `IsoTablas`).
+- [x] `ocr-azure.qmd`: Pipeline automatizado de extracción documental. *(Estructurado)*
+- [x] `picnik.qmd`: Aplicación en Streamlit para análisis isoconversional en cinética térmica (`picnik_webapp`). *(Estructurado)*
+- [x] Vincular repositorios públicos existentes en el sitio (`picnik_webapp`, `doi_metadata_extractor`, `directorio-secihti`, `IsoTablas`). *(Conectados en `proyectos.qmd`)*
 - [ ] Limpiar perfil de GitHub: despinnear repositorios que no correspondan a trabajo original propio (ej. fork `Webscraping_Inmuebles24`).
 - [ ] Redactar/mejorar documentación README en cada repositorio público enlazado.
 
 ### **P3 — Expansión bilingüe y CV oficial**
 - [ ] Creación de espejo bilingüe en `/en/`.
-- [ ] Generación e integración del CV descargable en formato PDF (`assets/cv-japt.pdf`) alineado con la versión HTML de `cv.qmd`.
+- [x] Generación e integración del CV descargable en formato PDF (`assets/cv-japt.pdf`) alineado con la versión HTML de `cv.qmd`. *(Completado)*
 
 ---
 
