@@ -17,39 +17,37 @@ Especialista en Estadística Aplicada (IIMAS, UNAM) y Físico (Facultad de Cienc
 
 ## Experiencia Profesional
 
-### **Analista Especializado en Secihti**
-**Secretaría de Ciencia, Humanidades, Tecnología e Innovación (antes Conahcyt)**  
-*Enero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera*
+### **Analista Especializado / Científico de Datos**
+**Secretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)**  
+*Enero 2025 – Presente | Dirección de Investigación Científica Básica y de Frontera*
 
-- Analista especializado en la Dirección de Investigación Científica Básica y de Frontera.
-- Diseñé e implementé el algoritmo **APEES** (*Algoritmo de Priorización con Equidad y Estructura Social*) para la priorización lexicográfica de ~5,000 proyectos de investigación.
+- **Algoritmo APEES (Priorización Lexicográfica de Fondos):** Diseñé e implementé el algoritmo *Scaled Prioritization with Social Equity* para la asignación transparente y objetiva de **$336,497,131 MXN** en fondos de investigación (3,631 propuestas analizadas, 2,062 elegibles). Implementé la sustitución de media por mediana recortada ($r_{ref} = 9.19$) y franja de indiferencia estadística ($\delta = 0.05$), reordenando 154 proyectos en la frontera mediante criterios de equidad social.
+- **Modelado Bayesiano & Simulación Estocástica:** Desarrollé un modelo Bayesiano Jerárquico Beta-Binomial con contracción parcial (*shrinkage*) y descomposición aditiva (tipo Ley de Hess) para proyectar tiempos de tramitación administrativa y cuellos de botella en $N = 484$ proyectos a través de 4 rutas operativas y teoría de colas ($M/M/k$).
+- **Investigación Científica Publicable:** Autor principal del manuscrito *"Designing Auditable Priority Mechanisms for Public Research Funding: Merit, Equity, and the APEES Algorithm"* para la revista *Science and Public Policy* (Oxford University Press), formalizando la franja crítica ($\mathcal{F}$) ante las Condiciones de Imposibilidad de Arrow (1951).
+- **Tableros de Control & Dashboards de Baja Latencia:** Diseñé la arquitectura de tableros web estáticos desacoplados (Vanilla JS, CSS, Python updater) con consultas SQL multiasociativas (MySQL, PostgreSQL) e indicadores en vivo para monitoreo de convocatorias masivas nacionales.
 
-### **Analista Especializado en Conahcyt**
-**Dirección de Ciencia de Frontera**  
-*Agosto 2024 – Diciembre 2024*
+### **Analista Especializado**
+**Conahcyt**  
+*Agosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera*
 
-- Participación en el seguimiento técnico de Convocatorias de Investigación Científica Básica (ministración, opiniones técnicas de informes, revisión de entregables y atención técnica a investigadores).
-- **Algoritmo de OCR:** Desarrollo e implementación de un pipeline de extracción automatizada de parámetros por contexto mediante la API de Microsoft Azure implementada en Python para documentos probatorios.
-- **Validación Crossref:** Algoritmo de identificación de DOI en artículos científicos y extracción de metadatos vía API de Crossref para automatizar el conteo de publicaciones comprometidas por proyecto.
-- **Rúbricas cuantitativas:** Desarrollo de rúbricas basadas en pruebas estadísticas y criterios cuantitativos para revisión interna.
-- **Administración de datos:** Gestión de bases de datos, extracción automatizada e informes técnicos para más de 250 proyectos.
+- **Auditoría Documental y Pipeline OCR (`sp`):** Diseñé un pipeline ETL e integración de OCR (EasyOCR y Azure API) para auditar un universo de **~760 proyectos** y **363 PDFs** de oficios documentales. Formulé un discriminante de distancia absoluta ($disc\_v1$) con límites IQR para reconciliación de entregables y dictámenes oficiales.
+- **Validación Bibliográfica Crossref:** Desarrollé un algoritmo en Python para la extracción automatizada de DOI en publicaciones científicas y validación de metadatos mediante la API de Crossref, automatizando la auditoría de entregables académicos.
+- **Software Desktop de Automatización (`fusionador`):** Desarrollé una aplicación desktop GUI en Python/Tkinter (standalone `.exe` de ~25 MB) para la fusión, indización por patrones Regex y corrección automática de paridad de páginas para impresión dúplex en expedientes PDF.
 
 ### **Data Science Analyst**
 **Jüsto (Supermercado Digital)**  
 *Marzo 2024 – Agosto 2024*
 
-- Reasignación estratégica de zonas de reparto implementando la API de ArcGIS en Python.
-- Clusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).
-- Construcción de un índice cuantitativo para identificar productos propensos a falta de inventario (*Never Stock Out*).
+- **Optimización Logística Geoespacial:** Reasigné estratégicamente zonas de reparto e infraestructura de última milla implementando la API de ArcGIS en Python.
+- **Segmentación de Clientes & Analítica de Inventarios:** Diseñé modelos de clusterización de clientes por comportamiento de compra mediante K-Means y Análisis de Componentes Principales (PCA), construyendo además un índice cuantitativo para la prevención de agotados (*Never Stock Out*).
 
 ### **Participaciones Destacadas**
-**Impact Lab de Claude (Anthropic)**
-- Participación en el programa de desarrollo e investigación analítica con inteligencia artificial aplicados a herramientas de IA y modelos predictivos.
+- **Impact Lab de Claude (Anthropic):** Participación en el programa de desarrollo e investigación analítica con inteligencia artificial aplicados a herramientas de IA y modelos predictivos.
 
 ### **Programa Adopte Un Talento (PAUTA)**
 *Julio 2023 – Agosto 2023*
 
-- Profesor en el curso de verano Científico.
+- Impartición de talleres de formación científica y matemática para estudiantes de alto desempeño.
 
 ---
 

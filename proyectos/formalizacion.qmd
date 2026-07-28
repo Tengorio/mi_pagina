@@ -1,0 +1,33 @@
+---
+title: "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización"
+description: "Modelo Jerárquico Beta-Binomial con contracción parcial (shrinkage), aditividad tipo Ley de Hess y teoría de colas M/M/k para $N = 484$ proyectos."
+categories: [Estadística Aplicada, Inferencia Bayesiana, Python, Optimización]
+date: last-modified
+---
+
+## El problema
+
+La formalización administrativa de asignación de recursos para $N = 484$ proyectos de investigación aprobados requiere la firma sucesiva de 6 figuras administrativas (Representante Legal, Responsable Administrativo, Responsable Técnico e instancias de la secretaría federal). La falta de visibilidad estocástica sobre los tiempos de respuesta y las tasas de re-tramitación por cambios en directivas institucionales generaba cuellos de botella severos e incertidumbre en la fecha de ministración presupuestal.
+
+## El enfoque
+
+Formulé un marco analítico estocástico compuesto por dos componentes principales:
+1. **Inferencia Bayesiana Jerárquica (Beta-Binomial):** Inferencia estocástica con contracción parcial (*empirical Bayes / shrinkage*) para estimar las probabilidades institucionales de re-tramitación por rotación de figuras clave.
+2. **Aditividad Tipo Ley de Hess y Teoría de Colas:** Descomposición matemática del tiempo administrativo esperado en función de 4 rutas posibles de tramitación ($R_1$ a $R_4$), combinada con modelos de colas $M/M/k$ para modelar la saturación de firmas en las dependencias oficiales.
+
+## La decisión técnica que no era obvia
+
+**Se descartó estimar una tasa de re-tramitación agregada global por institución y realizar el cálculo de inferencia en tiempo real en el frontend cliente, optando por derivar una descomposición estocástica independiente por figura administrativa y aislar la inferencia en Python.**
+
+Estimar una tasa agregada simple ocultaba que cada institución posee un solo Representante Legal ($RL$), pero múltiples Responsables Administrativos ($RA$) y Técnicos ($RT$), distorsionando los denominadores de riesgo. Se derivó la relación probabilística explícita:
+$$p^{RALT} = 1 - (1 - p^{RA})(1 - p^{RL})(1 - p^{RT})$$
+Asimismo, se aisló el motor de inferencia Bayesiana en Python (`scipy.stats`) para pre-calcular y exportar artefactos estáticos (`data_calibrados.json`), eliminando la latencia en la interfaz del tablero cliente y garantizando la reproducibilidad matemática.
+
+## Resultado
+
+Proyección exacta de tiempos de tramitación y flujo de firmas sobre $N = 484$ proyectos divididos en 4 rutas. Se identificó cuantitativamente que el nodo de validación de la subsecretaría constituía el cuello de botella primario en la cola de atención, permitiendo redistribuir la carga operativa y reducir el tiempo global de formalización.
+
+## Stack y código
+
+- **Stack:** Python (`scipy`, `numpy`, `pandas`), Inferencia Bayesiana Beta-Binomial, Teoría de Colas ($M/M/k$).
+- **Código:** Repositorio en proceso de publicación y sanitización con datos sintéticos.

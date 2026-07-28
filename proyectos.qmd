@@ -9,6 +9,8 @@ Enfoque cuantitativo aplicado a decisiones con impacto real. Cada caso documenta
 
 - **[APEES — Priorización de fondos con criterios de equidad](proyectos/apees.qmd)**  
   Algoritmo de priorización lexicográfica con criterios de equidad social sobre ~5,000 proyectos de investigación.
+- **[Modelado Bayesiano y simulación estocástica de formalización](proyectos/formalizacion.qmd)**  
+  Modelo Jerárquico Beta-Binomial con contracción parcial (shrinkage) y teoría de colas para proyectar tiempos de tramitación en $N = 484$ proyectos.
 - **[Análisis de supervivencia en procesos de evaluación](proyectos/supervivencia-evaluadores.qmd)**  
   Estimación de tiempos de respuesta de dictaminadores académicos mediante modelos de Kaplan-Meier y Cox.
 - **[Pipeline de extracción documental con OCR](proyectos/ocr-azure.qmd)**  

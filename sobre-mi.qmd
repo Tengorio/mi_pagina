@@ -25,31 +25,31 @@ Físico y especialista en estadística aplicada con experiencia en el sector pú
 
 ### **Analista Especializado / Científico de Datos**
 **Secretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)**  
-*Enero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera*
+*Enero 2025 – Presente | Dirección de Investigación Científica Básica y de Frontera*
 
-- Diseñé e implementé el algoritmo **APEES** (*Algoritmo de Priorización con Equidad y Estructura Social*), un motor de priorización lexicográfica sobre ~5,000 propuestas de investigación para la asignación transparente y objetiva de fondos públicos.
-- Desarrollé e implementé un pipeline de extracción documental con **OCR** (API de Microsoft Azure) en Python para automatizar la captura de parámetros en expedientes probatorios.
-- Construí e integré un sistema de validación bibliográfica vía API de **Crossref** mediante extracción automatizada de DOI en publicaciones científicas.
-- Desarrollé rúbricas cuantitativas basadas en pruebas estadísticas para revisión interna de proyectos y administración de bases de datos de más de 250 proyectos.
+- Diseñé e implementé el algoritmo **APEES** (*Scaled Prioritization with Social Equity*), asignando **$336,497,131 MXN** en fondos públicos a través de 3,631 propuestas evaluadas. Sustituí la media aritmética por mediana recortada ($r_{ref} = 9.19$) y franja de indiferencia ($\delta = 0.05$), reordenando 154 proyectos bajo criterios de equidad social.
+- Formulé e implementé un modelo **Bayesiano Jerárquico Beta-Binomial** con contracción parcial (*shrinkage*) y aditividad tipo Ley de Hess para simular cuellos de botella y tiempos de tramitación administrativa en $N = 484$ proyectos a través de 4 rutas operativas y teoría de colas ($M/M/k$).
+- Redacté el manuscrito científico *"Designing Auditable Priority Mechanisms for Public Research Funding: Merit, Equity, and the APEES Algorithm"* (en preparación para *Science and Public Policy*, Oxford University Press), formalizando el tratamiento de la franja crítica ($\mathcal{F}$) ante las Condiciones de Imposibilidad de Arrow.
+- Diseñé la arquitectura de **tableros de control desacoplados** (Vanilla JS/CSS, Python updater, consultas SQL multiasociativas en MySQL/PostgreSQL) para monitoreo en vivo de convocatorias masivas.
 
 ### **Analista Especializado**
 **Conahcyt**  
 *Agosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera*
 
-- Seguimiento técnico y normativo de convocatorias de Investigación Científica Básica.
-- Automatización de reportes técnicos, dictaminaciones y atención técnica a responsables de proyecto.
+- Diseñé un pipeline ETL e integración de OCR (**EasyOCR** y **Azure API**) para la auditoría documental de **~760 proyectos** (fondo CB-2017-2018) y **363 PDFs** de oficios. Formulé un discriminante de distancia absoluta ($disc\_v1$) con límites IQR para reconciliación de entregables y dictámenes.
+- Desarrollé un algoritmo en Python para la extracción automatizada de DOI y validación de metadatos mediante la API de **Crossref**, automatizando la auditoría de artículos científicos comprometidos.
+- Construí una aplicación desktop GUI en Python/Tkinter (**`fusionador`**, ejecutable `.exe` de ~25 MB) para indización con patrones Regex y corrección de paridad de páginas para impresión dúplex de expedientes PDF.
 
 ### **Data Science Analyst**
 **Jüsto (Supermercado Digital)**  
 *Marzo 2024 – Agosto 2024 | Ciudad de México*
 
-- Reasignación estratégica de zonas de reparto e infraestructura logística utilizando la API de ArcGIS en Python.
+- Reasignación estratégica de zonas de reparto e infraestructura logística de última milla utilizando la API de ArcGIS en Python.
 - Clusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).
-- Construcción de un índice cuantitativo para la identificación y prevención de agotados (*Never Stock Out*).
+- Construcción de un índice cuantitativo para la identificación y prevención de productos propensos a agotarse (*Never Stock Out*).
 
 ### **Participaciones Destacadas**
-**Impact Lab de Claude (Anthropic)**
-- Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y soluciones con Inteligencia Artificial.
+- **Impact Lab de Claude (Anthropic):** Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y herramientas avanzadas de Inteligencia Artificial.
 
 ---
 

@@ -11,7 +11,7 @@
     "href": "sobre-mi.html#trayectoria-profesional",
     "title": "Sobre mí",
     "section": "Trayectoria Profesional",
-    "text": "Trayectoria Profesional\n\nAnalista Especializado / Científico de Datos\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)\nEnero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera\n\nDiseñé e implementé el algoritmo APEES (Algoritmo de Priorización con Equidad y Estructura Social), un motor de priorización lexicográfica sobre ~5,000 propuestas de investigación para la asignación transparente y objetiva de fondos públicos.\nDesarrollé e implementé un pipeline de extracción documental con OCR (API de Microsoft Azure) en Python para automatizar la captura de parámetros en expedientes probatorios.\nConstruí e integré un sistema de validación bibliográfica vía API de Crossref mediante extracción automatizada de DOI en publicaciones científicas.\nDesarrollé rúbricas cuantitativas basadas en pruebas estadísticas para revisión interna de proyectos y administración de bases de datos de más de 250 proyectos.\n\n\n\nAnalista Especializado\nConahcyt\nAgosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera\n\nSeguimiento técnico y normativo de convocatorias de Investigación Científica Básica.\nAutomatización de reportes técnicos, dictaminaciones y atención técnica a responsables de proyecto.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024 | Ciudad de México\n\nReasignación estratégica de zonas de reparto e infraestructura logística utilizando la API de ArcGIS en Python.\nClusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).\nConstrucción de un índice cuantitativo para la identificación y prevención de agotados (Never Stock Out).\n\n\n\nParticipaciones Destacadas\nImpact Lab de Claude (Anthropic) - Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y soluciones con Inteligencia Artificial."
+    "text": "Trayectoria Profesional\n\nAnalista Especializado / Científico de Datos\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)\nEnero 2025 – Presente | Dirección de Investigación Científica Básica y de Frontera\n\nDiseñé e implementé el algoritmo APEES (Scaled Prioritization with Social Equity), asignando **\\(336,497,131 MXN** en fondos públicos a través de 3,631 propuestas evaluadas. Sustituí la media aritmética por mediana recortada (\\)r_{ref} = 9.19\\() y franja de indiferencia (\\)= 0.05$), reordenando 154 proyectos bajo criterios de equidad social.\nFormulé e implementé un modelo Bayesiano Jerárquico Beta-Binomial con contracción parcial (shrinkage) y aditividad tipo Ley de Hess para simular cuellos de botella y tiempos de tramitación administrativa en \\(N = 484\\) proyectos a través de 4 rutas operativas y teoría de colas (\\(M/M/k\\)).\nRedacté el manuscrito científico “Designing Auditable Priority Mechanisms for Public Research Funding: Merit, Equity, and the APEES Algorithm” (en preparación para Science and Public Policy, Oxford University Press), formalizando el tratamiento de la franja crítica (\\(\\mathcal{F}\\)) ante las Condiciones de Imposibilidad de Arrow.\nDiseñé la arquitectura de tableros de control desacoplados (Vanilla JS/CSS, Python updater, consultas SQL multiasociativas en MySQL/PostgreSQL) para monitoreo en vivo de convocatorias masivas.\n\n\n\nAnalista Especializado\nConahcyt\nAgosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera\n\nDiseñé un pipeline ETL e integración de OCR (EasyOCR y Azure API) para la auditoría documental de ~760 proyectos (fondo CB-2017-2018) y 363 PDFs de oficios. Formulé un discriminante de distancia absoluta (\\(disc\\_v1\\)) con límites IQR para reconciliación de entregables y dictámenes.\nDesarrollé un algoritmo en Python para la extracción automatizada de DOI y validación de metadatos mediante la API de Crossref, automatizando la auditoría de artículos científicos comprometidos.\nConstruí una aplicación desktop GUI en Python/Tkinter (fusionador, ejecutable .exe de ~25 MB) para indización con patrones Regex y corrección de paridad de páginas para impresión dúplex de expedientes PDF.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024 | Ciudad de México\n\nReasignación estratégica de zonas de reparto e infraestructura logística de última milla utilizando la API de ArcGIS en Python.\nClusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).\nConstrucción de un índice cuantitativo para la identificación y prevención de productos propensos a agotarse (Never Stock Out).\n\n\n\nParticipaciones Destacadas\n\nImpact Lab de Claude (Anthropic): Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y herramientas avanzadas de Inteligencia Artificial."
   },
   {
     "objectID": "sobre-mi.html#docencia-universitaria",
@@ -77,6 +77,139 @@
     "text": "Stack y código\n\nStack: Python (Streamlit, SciPy, NumPy, matplotlib).\nCódigo: picnik_webapp en GitHub."
   },
   {
+    "objectID": "proyectos/formalizacion.html",
+    "href": "proyectos/formalizacion.html",
+    "title": "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización",
+    "section": "",
+    "text": "La formalización administrativa de asignación de recursos para \\(N = 484\\) proyectos de investigación aprobados requiere la firma sucesiva de 6 figuras administrativas (Representante Legal, Responsable Administrativo, Responsable Técnico e instancias de la secretaría federal). La falta de visibilidad estocástica sobre los tiempos de respuesta y las tasas de re-tramitación por cambios en directivas institucionales generaba cuellos de botella severos e incertidumbre en la fecha de ministración presupuestal."
+  },
+  {
+    "objectID": "proyectos/formalizacion.html#el-problema",
+    "href": "proyectos/formalizacion.html#el-problema",
+    "title": "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización",
+    "section": "",
+    "text": "La formalización administrativa de asignación de recursos para \\(N = 484\\) proyectos de investigación aprobados requiere la firma sucesiva de 6 figuras administrativas (Representante Legal, Responsable Administrativo, Responsable Técnico e instancias de la secretaría federal). La falta de visibilidad estocástica sobre los tiempos de respuesta y las tasas de re-tramitación por cambios en directivas institucionales generaba cuellos de botella severos e incertidumbre en la fecha de ministración presupuestal."
+  },
+  {
+    "objectID": "proyectos/formalizacion.html#el-enfoque",
+    "href": "proyectos/formalizacion.html#el-enfoque",
+    "title": "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización",
+    "section": "El enfoque",
+    "text": "El enfoque\nFormulé un marco analítico estocástico compuesto por dos componentes principales: 1. Inferencia Bayesiana Jerárquica (Beta-Binomial): Inferencia estocástica con contracción parcial (empirical Bayes / shrinkage) para estimar las probabilidades institucionales de re-tramitación por rotación de figuras clave. 2. Aditividad Tipo Ley de Hess y Teoría de Colas: Descomposición matemática del tiempo administrativo esperado en función de 4 rutas posibles de tramitación (\\(R_1\\) a \\(R_4\\)), combinada con modelos de colas \\(M/M/k\\) para modelar la saturación de firmas en las dependencias oficiales."
+  },
+  {
+    "objectID": "proyectos/formalizacion.html#la-decisión-técnica-que-no-era-obvia",
+    "href": "proyectos/formalizacion.html#la-decisión-técnica-que-no-era-obvia",
+    "title": "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización",
+    "section": "La decisión técnica que no era obvia",
+    "text": "La decisión técnica que no era obvia\nSe descartó estimar una tasa de re-tramitación agregada global por institución y realizar el cálculo de inferencia en tiempo real en el frontend cliente, optando por derivar una descomposición estocástica independiente por figura administrativa y aislar la inferencia en Python.\nEstimar una tasa agregada simple ocultaba que cada institución posee un solo Representante Legal (\\(RL\\)), pero múltiples Responsables Administrativos (\\(RA\\)) y Técnicos (\\(RT\\)), distorsionando los denominadores de riesgo. Se derivó la relación probabilística explícita: \\[p^{RALT} = 1 - (1 - p^{RA})(1 - p^{RL})(1 - p^{RT})\\] Asimismo, se aisló el motor de inferencia Bayesiana en Python (scipy.stats) para pre-calcular y exportar artefactos estáticos (data_calibrados.json), eliminando la latencia en la interfaz del tablero cliente y garantizando la reproducibilidad matemática."
+  },
+  {
+    "objectID": "proyectos/formalizacion.html#resultado",
+    "href": "proyectos/formalizacion.html#resultado",
+    "title": "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización",
+    "section": "Resultado",
+    "text": "Resultado\nProyección exacta de tiempos de tramitación y flujo de firmas sobre \\(N = 484\\) proyectos divididos en 4 rutas. Se identificó cuantitativamente que el nodo de validación de la subsecretaría constituía el cuello de botella primario en la cola de atención, permitiendo redistribuir la carga operativa y reducir el tiempo global de formalización."
+  },
+  {
+    "objectID": "proyectos/formalizacion.html#stack-y-código",
+    "href": "proyectos/formalizacion.html#stack-y-código",
+    "title": "Modelado Bayesiano y Simulación Estocástica para Tiempos de Formalización",
+    "section": "Stack y código",
+    "text": "Stack y código\n\nStack: Python (scipy, numpy, pandas), Inferencia Bayesiana Beta-Binomial, Teoría de Colas (\\(M/M/k\\)).\nCódigo: Repositorio en proceso de publicación y sanitización con datos sintéticos."
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Estudios de caso",
+    "section": "",
+    "text": "Enfoque cuantitativo aplicado a decisiones con impacto real. Cada caso documenta el problema resuelto, la alternativa técnica descartada y las métricas obtenidas."
+  },
+  {
+    "objectID": "proyectos.html#sector-público-y-optimización",
+    "href": "proyectos.html#sector-público-y-optimización",
+    "title": "Estudios de caso",
+    "section": "Sector público y optimización",
+    "text": "Sector público y optimización\n\nAPEES — Priorización de fondos con criterios de equidad\nAlgoritmo de priorización lexicográfica con criterios de equidad social sobre ~5,000 proyectos de investigación.\nModelado Bayesiano y simulación estocástica de formalización\nModelo Jerárquico Beta-Binomial con contracción parcial (shrinkage) y teoría de colas para proyectar tiempos de tramitación en \\(N = 484\\) proyectos.\nAnálisis de supervivencia en procesos de evaluación\nEstimación de tiempos de respuesta de dictaminadores académicos mediante modelos de Kaplan-Meier y Cox.\nPipeline de extracción documental con OCR\nAutomatización de captura sobre comprobantes y validación mediante la API de Crossref."
+  },
+  {
+    "objectID": "proyectos.html#herramientas-y-aplicaciones",
+    "href": "proyectos.html#herramientas-y-aplicaciones",
+    "title": "Estudios de caso",
+    "section": "Herramientas y Aplicaciones",
+    "text": "Herramientas y Aplicaciones\n\npicnik_webapp — Cinética térmica isoconversional\nPlataforma web para el análisis de energía de activación a partir de curvas TGA."
+  },
+  {
+    "objectID": "proyectos.html#repositorios-de-código-público",
+    "href": "proyectos.html#repositorios-de-código-público",
+    "title": "Estudios de caso",
+    "section": "Repositorios de código público",
+    "text": "Repositorios de código público\n\npicnik_webapp — Aplicación web para análisis cinético isoconversional.\ndoi_metadata_extractor — Extractor automatizado de metadatos de artículos vía DOI/Crossref.\ndirectorio-secihti — Utilidades de estructuración de información institucional.\nIsoTablas — Herramientas analíticas complementarias para termogravimetría."
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Javier Arturo Paredes Tenorio",
+    "section": "",
+    "text": "TODO"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Currículum Vitae",
+    "section": "",
+    "text": "Descargar CV en PDF (assets/cv-japt.pdf)"
+  },
+  {
+    "objectID": "cv.html#perfil-profesional",
+    "href": "cv.html#perfil-profesional",
+    "title": "Currículum Vitae",
+    "section": "Perfil Profesional",
+    "text": "Perfil Profesional\nEspecialista en Estadística Aplicada (IIMAS, UNAM) y Físico (Facultad de Ciencias, UNAM). A lo largo de mi experiencia profesional he desarrollado e implementado proyectos de clasificación, regresión y optimización aplicados en la automatización de procesos (SaaS B2B) y la toma de decisiones basada en datos (DDDM). Cuento con amplia experiencia en el seguimiento técnico de proyectos de investigación científica, diseño de encuestas, desarrollo de indicadores cuantitativos, modelos de regresión lineal generalizados (GLM), análisis de supervivencia y modelos de probabilidad bayesianos."
+  },
+  {
+    "objectID": "cv.html#experiencia-profesional",
+    "href": "cv.html#experiencia-profesional",
+    "title": "Currículum Vitae",
+    "section": "Experiencia Profesional",
+    "text": "Experiencia Profesional\n\nAnalista Especializado / Científico de Datos\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)\nEnero 2025 – Presente | Dirección de Investigación Científica Básica y de Frontera\n\nAlgoritmo APEES (Priorización Lexicográfica de Fondos): Diseñé e implementé el algoritmo Scaled Prioritization with Social Equity para la asignación transparente y objetiva de **\\(336,497,131 MXN** en fondos de investigación (3,631 propuestas analizadas, 2,062 elegibles). Implementé la sustitución de media por mediana recortada (\\)r_{ref} = 9.19\\() y franja de indiferencia estadística (\\)= 0.05$), reordenando 154 proyectos en la frontera mediante criterios de equidad social.\nModelado Bayesiano & Simulación Estocástica: Desarrollé un modelo Bayesiano Jerárquico Beta-Binomial con contracción parcial (shrinkage) y descomposición aditiva (tipo Ley de Hess) para proyectar tiempos de tramitación administrativa y cuellos de botella en \\(N = 484\\) proyectos a través de 4 rutas operativas y teoría de colas (\\(M/M/k\\)).\nInvestigación Científica Publicable: Autor principal del manuscrito “Designing Auditable Priority Mechanisms for Public Research Funding: Merit, Equity, and the APEES Algorithm” para la revista Science and Public Policy (Oxford University Press), formalizando la franja crítica (\\(\\mathcal{F}\\)) ante las Condiciones de Imposibilidad de Arrow (1951).\nTableros de Control & Dashboards de Baja Latencia: Diseñé la arquitectura de tableros web estáticos desacoplados (Vanilla JS, CSS, Python updater) con consultas SQL multiasociativas (MySQL, PostgreSQL) e indicadores en vivo para monitoreo de convocatorias masivas nacionales.\n\n\n\nAnalista Especializado\nConahcyt\nAgosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera\n\nAuditoría Documental y Pipeline OCR (sp): Diseñé un pipeline ETL e integración de OCR (EasyOCR y Azure API) para auditar un universo de ~760 proyectos y 363 PDFs de oficios documentales. Formulé un discriminante de distancia absoluta (\\(disc\\_v1\\)) con límites IQR para reconciliación de entregables y dictámenes oficiales.\nValidación Bibliográfica Crossref: Desarrollé un algoritmo en Python para la extracción automatizada de DOI en publicaciones científicas y validación de metadatos mediante la API de Crossref, automatizando la auditoría de entregables académicos.\nSoftware Desktop de Automatización (fusionador): Desarrollé una aplicación desktop GUI en Python/Tkinter (standalone .exe de ~25 MB) para la fusión, indización por patrones Regex y corrección automática de paridad de páginas para impresión dúplex en expedientes PDF.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024\n\nOptimización Logística Geoespacial: Reasigné estratégicamente zonas de reparto e infraestructura de última milla implementando la API de ArcGIS en Python.\nSegmentación de Clientes & Analítica de Inventarios: Diseñé modelos de clusterización de clientes por comportamiento de compra mediante K-Means y Análisis de Componentes Principales (PCA), construyendo además un índice cuantitativo para la prevención de agotados (Never Stock Out).\n\n\n\nParticipaciones Destacadas\n\nImpact Lab de Claude (Anthropic): Participación en el programa de desarrollo e investigación analítica con inteligencia artificial aplicados a herramientas de IA y modelos predictivos.\n\n\n\nPrograma Adopte Un Talento (PAUTA)\nJulio 2023 – Agosto 2023\n\nImpartición de talleres de formación científica y matemática para estudiantes de alto desempeño."
+  },
+  {
+    "objectID": "cv.html#docencia-universitaria",
+    "href": "cv.html#docencia-universitaria",
+    "title": "Currículum Vitae",
+    "section": "Docencia Universitaria",
+    "text": "Docencia Universitaria\nFacultad de Ciencias, UNAM (2019 – 2025)\n\nProfesor: Cálculo Integral y Diferencial I (Semestre 2024-1).\nProfesor Adjunto (Matemáticas): Cálculo I (Semestres 2023-1, 2021-2), Cálculo II (Semestres 2023-2, 2022-1, 2021-3), Cálculo III (Semestres 2022-2, 2020-2) y Cálculo IV (Semestre 2021-1).\nProfesor Adjunto (Física): Termodinámica (Semestres 2025-2, 2025-1), Fenómenos Colectivos (Semestres 2024-2, 2024-1, 2023-3, 2023-2, 2023-1), Laboratorio de Mecánica (Semestre 2022-2) y Laboratorio de Electromagnetismo (Semestre 2019-1)."
+  },
+  {
+    "objectID": "cv.html#formación-académica",
+    "href": "cv.html#formación-académica",
+    "title": "Currículum Vitae",
+    "section": "Formación Académica",
+    "text": "Formación Académica\n\nEspecialización en Estadística Aplicada\nInstituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM (Agosto 2023 – Mayo 2024).\nTitulado por Examen General de Conocimientos.\nLicenciatura en Física\nFacultad de Ciencias, UNAM (Agosto 2015 – Agosto 2021).\nTesis: “Desarrollo de un espectrómetro didáctico de fotoemisión y Raman para caracterizar matlanina”. Presentada en el LXI Congreso Nacional de Física y en la XIII Reunión Anual de la AAPT-MX."
+  },
+  {
+    "objectID": "cv.html#competencias-técnicas",
+    "href": "cv.html#competencias-técnicas",
+    "title": "Currículum Vitae",
+    "section": "Competencias Técnicas",
+    "text": "Competencias Técnicas\n\nEstadística y ML: EDA, Geo-estadística (SIG/QGIS/ArcGIS), Predictivos, Inferencia Bayesiana, Regresión Lineal Generalizada, PCA, Clustering (K-Means, LDA, MDA), Métodos Estadísticos para Machine Learning.\nInformática: Python, R, SQL, LaTeX, QGIS, Microsoft Office (Excel, Word, PowerPoint).\nIdiomas: Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Javier Arturo Paredes Tenorio",
+    "section": "",
+    "text": "Físico por la UNAM con especialización en estadística aplicada por el IIMAS. Construyo modelos estadísticos rigurosos y las herramientas operativas que los ponen a funcionar en producción. Actualmente trabajo en la secretaría federal de ciencia (Secihti), donde diseñé el algoritmo que prioriza la asignación de fondos de investigación científica en México."
+  },
+  {
+    "objectID": "index.html#estudios-de-caso-destacados",
+    "href": "index.html#estudios-de-caso-destacados",
+    "title": "Javier Arturo Paredes Tenorio",
+    "section": "Estudios de caso destacados",
+    "text": "Estudios de caso destacados\n\n\nAPEES — Priorización de Fondos\nSector Público / Optimización\nAlgoritmo de priorización lexicográfica con criterios de equidad social para ~5,000 proyectos de investigación. Sustitución de media por mediana ponderada y franjas equivalentes.\n\n\nPipeline OCR — Azure API\nIngeniería de Datos / Automatización\nExtracción automatizada de parámetros por contexto en comprobantes probatorios y validación bibliográfica vía API de Crossref.\n\n\nSupervivencia en Evaluación\nAnálisis de Supervivencia / R & Python\nModelos de Kaplan-Meier y Cox Proportional Hazards con censura por la derecha para estimar tiempos de respuesta de dictaminadores.\n\n\n\nVer todos los proyectos · Trayectoria y experiencia · Currículum Vitae · GitHub"
+  },
+  {
     "objectID": "proyectos/apees.html",
     "href": "proyectos/apees.html",
     "title": "APEES: Algoritmo de priorización lexicográfica para la asignación de fondos de investigación",
@@ -117,97 +250,6 @@
     "title": "APEES: Algoritmo de priorización lexicográfica para la asignación de fondos de investigación",
     "section": "Stack y código",
     "text": "Stack y código\n\nStack: Python (pandas, NumPy, scipy), R, LaTeX.\nCódigo: El código fuente exacto y los parámetros vigentes se mantienen en reserva institucional por normativa de la secretaría federal. Se incluirá un script con datos sintéticos representativos para demostración metodológica."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Javier Arturo Paredes Tenorio",
-    "section": "",
-    "text": "Físico por la UNAM con especialización en estadística aplicada por el IIMAS. Construyo modelos estadísticos rigurosos y las herramientas operativas que los ponen a funcionar en producción. Actualmente trabajo en la secretaría federal de ciencia (Secihti), donde diseñé el algoritmo que prioriza la asignación de fondos de investigación científica en México."
-  },
-  {
-    "objectID": "index.html#estudios-de-caso-destacados",
-    "href": "index.html#estudios-de-caso-destacados",
-    "title": "Javier Arturo Paredes Tenorio",
-    "section": "Estudios de caso destacados",
-    "text": "Estudios de caso destacados\n\n\nAPEES — Priorización de Fondos\nSector Público / Optimización\nAlgoritmo de priorización lexicográfica con criterios de equidad social para ~5,000 proyectos de investigación. Sustitución de media por mediana ponderada y franjas equivalentes.\n\n\nPipeline OCR — Azure API\nIngeniería de Datos / Automatización\nExtracción automatizada de parámetros por contexto en comprobantes probatorios y validación bibliográfica vía API de Crossref.\n\n\nSupervivencia en Evaluación\nAnálisis de Supervivencia / R & Python\nModelos de Kaplan-Meier y Cox Proportional Hazards con censura por la derecha para estimar tiempos de respuesta de dictaminadores.\n\n\n\nVer todos los proyectos · Trayectoria y experiencia · Currículum Vitae · GitHub"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Currículum Vitae",
-    "section": "",
-    "text": "Descargar CV en PDF (assets/cv-japt.pdf)"
-  },
-  {
-    "objectID": "cv.html#perfil-profesional",
-    "href": "cv.html#perfil-profesional",
-    "title": "Currículum Vitae",
-    "section": "Perfil Profesional",
-    "text": "Perfil Profesional\nEspecialista en Estadística Aplicada (IIMAS, UNAM) y Físico (Facultad de Ciencias, UNAM). A lo largo de mi experiencia profesional he desarrollado e implementado proyectos de clasificación, regresión y optimización aplicados en la automatización de procesos (SaaS B2B) y la toma de decisiones basada en datos (DDDM). Cuento con amplia experiencia en el seguimiento técnico de proyectos de investigación científica, diseño de encuestas, desarrollo de indicadores cuantitativos, modelos de regresión lineal generalizados (GLM), análisis de supervivencia y modelos de probabilidad bayesianos."
-  },
-  {
-    "objectID": "cv.html#experiencia-profesional",
-    "href": "cv.html#experiencia-profesional",
-    "title": "Currículum Vitae",
-    "section": "Experiencia Profesional",
-    "text": "Experiencia Profesional\n\nAnalista Especializado en Secihti\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (antes Conahcyt)\nEnero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera\n\nAnalista especializado en la Dirección de Investigación Científica Básica y de Frontera.\nDiseñé e implementé el algoritmo APEES (Algoritmo de Priorización con Equidad y Estructura Social) para la priorización lexicográfica de ~5,000 proyectos de investigación.\n\n\n\nAnalista Especializado en Conahcyt\nDirección de Ciencia de Frontera\nAgosto 2024 – Diciembre 2024\n\nParticipación en el seguimiento técnico de Convocatorias de Investigación Científica Básica (ministración, opiniones técnicas de informes, revisión de entregables y atención técnica a investigadores).\nAlgoritmo de OCR: Desarrollo e implementación de un pipeline de extracción automatizada de parámetros por contexto mediante la API de Microsoft Azure implementada en Python para documentos probatorios.\nValidación Crossref: Algoritmo de identificación de DOI en artículos científicos y extracción de metadatos vía API de Crossref para automatizar el conteo de publicaciones comprometidas por proyecto.\nRúbricas cuantitativas: Desarrollo de rúbricas basadas en pruebas estadísticas y criterios cuantitativos para revisión interna.\nAdministración de datos: Gestión de bases de datos, extracción automatizada e informes técnicos para más de 250 proyectos.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024\n\nReasignación estratégica de zonas de reparto implementando la API de ArcGIS en Python.\nClusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).\nConstrucción de un índice cuantitativo para identificar productos propensos a falta de inventario (Never Stock Out).\n\n\n\nParticipaciones Destacadas\nImpact Lab de Claude (Anthropic) - Participación en el programa de desarrollo e investigación analítica con inteligencia artificial aplicados a herramientas de IA y modelos predictivos.\n\n\nPrograma Adopte Un Talento (PAUTA)\nJulio 2023 – Agosto 2023\n\nProfesor en el curso de verano Científico."
-  },
-  {
-    "objectID": "cv.html#docencia-universitaria",
-    "href": "cv.html#docencia-universitaria",
-    "title": "Currículum Vitae",
-    "section": "Docencia Universitaria",
-    "text": "Docencia Universitaria\nFacultad de Ciencias, UNAM (2019 – 2025)\n\nProfesor: Cálculo Integral y Diferencial I (Semestre 2024-1).\nProfesor Adjunto (Matemáticas): Cálculo I (Semestres 2023-1, 2021-2), Cálculo II (Semestres 2023-2, 2022-1, 2021-3), Cálculo III (Semestres 2022-2, 2020-2) y Cálculo IV (Semestre 2021-1).\nProfesor Adjunto (Física): Termodinámica (Semestres 2025-2, 2025-1), Fenómenos Colectivos (Semestres 2024-2, 2024-1, 2023-3, 2023-2, 2023-1), Laboratorio de Mecánica (Semestre 2022-2) y Laboratorio de Electromagnetismo (Semestre 2019-1)."
-  },
-  {
-    "objectID": "cv.html#formación-académica",
-    "href": "cv.html#formación-académica",
-    "title": "Currículum Vitae",
-    "section": "Formación Académica",
-    "text": "Formación Académica\n\nEspecialización en Estadística Aplicada\nInstituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM (Agosto 2023 – Mayo 2024).\nTitulado por Examen General de Conocimientos.\nLicenciatura en Física\nFacultad de Ciencias, UNAM (Agosto 2015 – Agosto 2021).\nTesis: “Desarrollo de un espectrómetro didáctico de fotoemisión y Raman para caracterizar matlanina”. Presentada en el LXI Congreso Nacional de Física y en la XIII Reunión Anual de la AAPT-MX."
-  },
-  {
-    "objectID": "cv.html#competencias-técnicas",
-    "href": "cv.html#competencias-técnicas",
-    "title": "Currículum Vitae",
-    "section": "Competencias Técnicas",
-    "text": "Competencias Técnicas\n\nEstadística y ML: EDA, Geo-estadística (SIG/QGIS/ArcGIS), Predictivos, Inferencia Bayesiana, Regresión Lineal Generalizada, PCA, Clustering (K-Means, LDA, MDA), Métodos Estadísticos para Machine Learning.\nInformática: Python, R, SQL, LaTeX, QGIS, Microsoft Office (Excel, Word, PowerPoint).\nIdiomas: Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico)."
-  },
-  {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Javier Arturo Paredes Tenorio",
-    "section": "",
-    "text": "TODO"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Estudios de caso",
-    "section": "",
-    "text": "Enfoque cuantitativo aplicado a decisiones con impacto real. Cada caso documenta el problema resuelto, la alternativa técnica descartada y las métricas obtenidas."
-  },
-  {
-    "objectID": "proyectos.html#sector-público-y-optimización",
-    "href": "proyectos.html#sector-público-y-optimización",
-    "title": "Estudios de caso",
-    "section": "Sector público y optimización",
-    "text": "Sector público y optimización\n\nAPEES — Priorización de fondos con criterios de equidad\nAlgoritmo de priorización lexicográfica con criterios de equidad social sobre ~5,000 proyectos de investigación.\nAnálisis de supervivencia en procesos de evaluación\nEstimación de tiempos de respuesta de dictaminadores académicos mediante modelos de Kaplan-Meier y Cox.\nPipeline de extracción documental con OCR\nAutomatización de captura sobre comprobantes y validación mediante la API de Crossref."
-  },
-  {
-    "objectID": "proyectos.html#herramientas-y-aplicaciones",
-    "href": "proyectos.html#herramientas-y-aplicaciones",
-    "title": "Estudios de caso",
-    "section": "Herramientas y Aplicaciones",
-    "text": "Herramientas y Aplicaciones\n\npicnik_webapp — Cinética térmica isoconversional\nPlataforma web para el análisis de energía de activación a partir de curvas TGA."
-  },
-  {
-    "objectID": "proyectos.html#repositorios-de-código-público",
-    "href": "proyectos.html#repositorios-de-código-público",
-    "title": "Estudios de caso",
-    "section": "Repositorios de código público",
-    "text": "Repositorios de código público\n\npicnik_webapp — Aplicación web para análisis cinético isoconversional.\ndoi_metadata_extractor — Extractor automatizado de metadatos de artículos vía DOI/Crossref.\ndirectorio-secihti — Utilidades de estructuración de información institucional.\nIsoTablas — Herramientas analíticas complementarias para termogravimetría."
   },
   {
     "objectID": "proyectos/ocr-azure.html",

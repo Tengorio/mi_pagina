@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -167,12 +196,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="analista-especializado-científico-de-datos" class="level3">
 <h3 class="anchored" data-anchor-id="analista-especializado-científico-de-datos"><strong>Analista Especializado / Científico de Datos</strong></h3>
 <p><strong>Secretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)</strong><br>
-<em>Enero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera</em></p>
+<em>Enero 2025 – Presente | Dirección de Investigación Científica Básica y de Frontera</em></p>
 <ul>
-<li>Diseñé e implementé el algoritmo <strong>APEES</strong> (<em>Algoritmo de Priorización con Equidad y Estructura Social</em>), un motor de priorización lexicográfica sobre ~5,000 propuestas de investigación para la asignación transparente y objetiva de fondos públicos.</li>
-<li>Desarrollé e implementé un pipeline de extracción documental con <strong>OCR</strong> (API de Microsoft Azure) en Python para automatizar la captura de parámetros en expedientes probatorios.</li>
-<li>Construí e integré un sistema de validación bibliográfica vía API de <strong>Crossref</strong> mediante extracción automatizada de DOI en publicaciones científicas.</li>
-<li>Desarrollé rúbricas cuantitativas basadas en pruebas estadísticas para revisión interna de proyectos y administración de bases de datos de más de 250 proyectos.</li>
+<li>Diseñé e implementé el algoritmo <strong>APEES</strong> (<em>Scaled Prioritization with Social Equity</em>), asignando **<span class="math inline">\(336,497,131 MXN** en fondos públicos a través de 3,631 propuestas evaluadas. Sustituí la media aritmética por mediana recortada (\)</span>r_{ref} = 9.19<span class="math inline">\() y franja de indiferencia (\)</span>= 0.05$), reordenando 154 proyectos bajo criterios de equidad social.</li>
+<li>Formulé e implementé un modelo <strong>Bayesiano Jerárquico Beta-Binomial</strong> con contracción parcial (<em>shrinkage</em>) y aditividad tipo Ley de Hess para simular cuellos de botella y tiempos de tramitación administrativa en <span class="math inline">\(N = 484\)</span> proyectos a través de 4 rutas operativas y teoría de colas (<span class="math inline">\(M/M/k\)</span>).</li>
+<li>Redacté el manuscrito científico <em>“Designing Auditable Priority Mechanisms for Public Research Funding: Merit, Equity, and the APEES Algorithm”</em> (en preparación para <em>Science and Public Policy</em>, Oxford University Press), formalizando el tratamiento de la franja crítica (<span class="math inline">\(\mathcal{F}\)</span>) ante las Condiciones de Imposibilidad de Arrow.</li>
+<li>Diseñé la arquitectura de <strong>tableros de control desacoplados</strong> (Vanilla JS/CSS, Python updater, consultas SQL multiasociativas en MySQL/PostgreSQL) para monitoreo en vivo de convocatorias masivas.</li>
 </ul>
 </section>
 <section id="analista-especializado" class="level3">
@@ -180,8 +209,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Conahcyt</strong><br>
 <em>Agosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera</em></p>
 <ul>
-<li>Seguimiento técnico y normativo de convocatorias de Investigación Científica Básica.</li>
-<li>Automatización de reportes técnicos, dictaminaciones y atención técnica a responsables de proyecto.</li>
+<li>Diseñé un pipeline ETL e integración de OCR (<strong>EasyOCR</strong> y <strong>Azure API</strong>) para la auditoría documental de <strong>~760 proyectos</strong> (fondo CB-2017-2018) y <strong>363 PDFs</strong> de oficios. Formulé un discriminante de distancia absoluta (<span class="math inline">\(disc\_v1\)</span>) con límites IQR para reconciliación de entregables y dictámenes.</li>
+<li>Desarrollé un algoritmo en Python para la extracción automatizada de DOI y validación de metadatos mediante la API de <strong>Crossref</strong>, automatizando la auditoría de artículos científicos comprometidos.</li>
+<li>Construí una aplicación desktop GUI en Python/Tkinter (<strong><code>fusionador</code></strong>, ejecutable <code>.exe</code> de ~25 MB) para indización con patrones Regex y corrección de paridad de páginas para impresión dúplex de expedientes PDF.</li>
 </ul>
 </section>
 <section id="data-science-analyst" class="level3">
@@ -189,14 +219,16 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Jüsto (Supermercado Digital)</strong><br>
 <em>Marzo 2024 – Agosto 2024 | Ciudad de México</em></p>
 <ul>
-<li>Reasignación estratégica de zonas de reparto e infraestructura logística utilizando la API de ArcGIS en Python.</li>
+<li>Reasignación estratégica de zonas de reparto e infraestructura logística de última milla utilizando la API de ArcGIS en Python.</li>
 <li>Clusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).</li>
-<li>Construcción de un índice cuantitativo para la identificación y prevención de agotados (<em>Never Stock Out</em>).</li>
+<li>Construcción de un índice cuantitativo para la identificación y prevención de productos propensos a agotarse (<em>Never Stock Out</em>).</li>
 </ul>
 </section>
 <section id="participaciones-destacadas" class="level3">
 <h3 class="anchored" data-anchor-id="participaciones-destacadas"><strong>Participaciones Destacadas</strong></h3>
-<p><strong>Impact Lab de Claude (Anthropic)</strong> - Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y soluciones con Inteligencia Artificial.</p>
+<ul>
+<li><strong>Impact Lab de Claude (Anthropic):</strong> Participación en el laboratorio de desarrollo e investigación analítica con modelos de lenguaje y herramientas avanzadas de Inteligencia Artificial.</li>
+</ul>
 <hr>
 </section>
 </section>
