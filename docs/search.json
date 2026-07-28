@@ -4,42 +4,35 @@
     "href": "sobre-mi.html",
     "title": "Sobre mí",
     "section": "",
-    "text": "Físico y analista estadístico con especial interés en la intersección entre métodos cuantitativos rigurosos y el desarrollo de sistemas de software que los ponen a operar."
+    "text": "Contacto:\ninktenorio@gmail.com\nGitHub (tengorio)\n\n\nFísico y especialista en estadística aplicada con experiencia en el sector público federal y privado. Mi trabajo se centra en diseñar modelos predictivos y estadísticos rigurosos, y construir las herramientas tecnológicas que los ponen a operar en producción."
   },
   {
-    "objectID": "sobre-mi.html#trayectoria",
-    "href": "sobre-mi.html#trayectoria",
+    "objectID": "sobre-mi.html#trayectoria-profesional",
+    "href": "sobre-mi.html#trayectoria-profesional",
     "title": "Sobre mí",
-    "section": "Trayectoria",
-    "text": "Trayectoria\nMi formación comenzó en la Licenciatura en Física en la Facultad de Ciencias (UNAM), donde desarrollé el pensamiento analítico orientado a primeros principios y el modelado cuantitativo de sistemas complejos. Posteriormente concreté la Especialización en Estadística Aplicada en el IIMAS (UNAM), enfocándome en inferencia estadística, análisis de datos multinivel y aprendizaje automático.\nEn el sector público federal (Secihti / Conahcyt) he diseñado y puesto en producción algoritmos de asignación masiva de recursos, modelos de supervivencia para procesos de evaluación y pipelines automatizados de extracción documental. Previamente me desempeñé como Data Science Analyst en el sector privado (Jüsto), optimizando zonas de reparto geoespaciales y clustering de clientes."
-  },
-  {
-    "objectID": "sobre-mi.html#experiencia-profesional",
-    "href": "sobre-mi.html#experiencia-profesional",
-    "title": "Sobre mí",
-    "section": "Experiencia profesional",
-    "text": "Experiencia profesional\n\nAnalista Especializado / Científico de Datos | Secihti (antes Conahcyt) — Enero 2025 – Presente\n\nDiseño e implementación del algoritmo APEES para la priorización lexicográfica de ~5,000 proyectos de investigación.\nModelación de análisis de supervivencia para estimar tiempos de respuesta de dictaminadores académicos.\nDesarrollo de motores de asignación presupuestal y tableros estadísticos institucionales.\n\nAnalista Especializado | Conahcyt — Agosto 2024 – Diciembre 2024\n\nPipelines de extracción documental con OCR y validación de metadatos vía API de Crossref.\n\nData Science Analyst | Jüsto — Marzo 2024 – Agosto 2024\n\nOptimización y reasignación de zonas de cobertura geoespacial mediante ArcGIS y Python.\nClustering de clientes para estrategias de retención y logística.\n\nConsultor Cuantitativo | Gradiente — 2023 – Presente\n\nConsultoría independiente en análisis cienciométrico, modelos estadísticos y optimización de procesos."
+    "section": "Trayectoria Profesional",
+    "text": "Trayectoria Profesional\n\nAnalista Especializado / Científico de Datos\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)\nEnero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera\n\nDiseñé e implementé el algoritmo APEES (Algoritmo de Priorización con Equidad y Estructura Social), un motor de priorización lexicográfica sobre ~5,000 propuestas de investigación para la asignación transparente y objetiva de fondos públicos.\nDesarrollé e implementé un pipeline de extracción documental con OCR (API de Microsoft Azure) en Python para automatizar la captura de parámetros en expedientes probatorios.\nConstruí e integré un sistema de validación bibliográfica vía API de Crossref mediante extracción automatizada de DOI en publicaciones científicas.\nDesarrollé rúbricas cuantitativas basadas en pruebas estadísticas para revisión interna de proyectos y administración de bases de datos de más de 250 proyectos.\n\n\n\nAnalista Especializado\nConahcyt\nAgosto 2024 – Diciembre 2024 | Dirección de Ciencia de Frontera\n\nSeguimiento técnico y normativo de convocatorias de Investigación Científica Básica.\nAutomatización de reportes técnicos, dictaminaciones y atención técnica a responsables de proyecto.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024 | Ciudad de México\n\nReasignación estratégica de zonas de reparto e infraestructura logística utilizando la API de ArcGIS en Python.\nClusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).\nConstrucción de un índice cuantitativo para la identificación y prevención de agotados (Never Stock Out)."
   },
   {
     "objectID": "sobre-mi.html#docencia-universitaria",
     "href": "sobre-mi.html#docencia-universitaria",
     "title": "Sobre mí",
-    "section": "Docencia universitaria",
-    "text": "Docencia universitaria\nProfesor de Asignatura / Ayudante de Profesor | Facultad de Ciencias, UNAM (2019 – 2025) Cursos impartidos: - Cálculo Diferencial e Integral I, II, III y IV - Termodinámica y Fenómenos Colectivos - Laboratorio de Mecánica y Laboratorio de Electromagnetismo - Tallerista en el programa Adopte Un Talento (PAUTA)"
+    "section": "Docencia Universitaria",
+    "text": "Docencia Universitaria\n\nProfesor y Profesor Adjunto\nFacultad de Ciencias, UNAM — Enero 2019 – Junio 2025\n\nDepartamento de Matemáticas: Cálculo Diferencial e Integral I (Semestres 2024-1, 2023-1, 2021-2), Cálculo II (Semestres 2023-2, 2022-1, 2021-3), Cálculo III (Semestres 2022-2, 2020-2) y Cálculo IV (Semestre 2021-1).\nDepartamento de Física: Termodinámica (Semestres 2025-2, 2025-1), Fenómenos Colectivos (Semestres 2024-2, 2024-1, 2023-3, 2023-2, 2023-1), Laboratorio de Mecánica (Semestre 2022-2) y Laboratorio de Electromagnetismo (Semestre 2019-1).\n\n\n\nPrograma Adopte Un Talento (PAUTA)\nJulio 2023 – Agosto 2023\n- Impartición de talleres de formación científica para estudiantes de alto desempeño."
   },
   {
     "objectID": "sobre-mi.html#formación-académica",
     "href": "sobre-mi.html#formación-académica",
     "title": "Sobre mí",
-    "section": "Formación académica",
-    "text": "Formación académica\n\nEspecialización en Estadística Aplicada — IIMAS, UNAM (2023–2024). Titulado por Examen General de Conocimientos.\nLicenciatura en Física — Facultad de Ciencias, UNAM (2015–2021). Tesis: Espectrómetro didáctico de bajo costo con aplicaciones forenses."
+    "section": "Formación Académica",
+    "text": "Formación Académica\n\nEspecialización en Estadística Aplicada\nInstituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM (Agosto 2023 – Mayo 2024).\nTitulado por Examen General de Conocimientos.\nLicenciatura en Física\nFacultad de Ciencias, UNAM (Agosto 2015 – Agosto 2021).\nTesis: “Desarrollo de un espectrómetro didáctico de fotoemisión y Raman para caracterizar matlanina”. Presentada en el LXI Congreso Nacional de Física y en la XIII Reunión Anual de la AAPT-MX."
   },
   {
-    "objectID": "sobre-mi.html#idiomas-y-stack",
-    "href": "sobre-mi.html#idiomas-y-stack",
+    "objectID": "sobre-mi.html#competencias-y-stack-tecnológico",
+    "href": "sobre-mi.html#competencias-y-stack-tecnológico",
     "title": "Sobre mí",
-    "section": "Idiomas y Stack",
-    "text": "Idiomas y Stack\n\nIdiomas: Español (nativo), Inglés (C1), Alemán (A2).\nStack: Python (pandas, NumPy, scikit-learn, Streamlit), R, SQL, LaTeX, QGIS/ArcGIS, Power BI, Git, Quarto.\n\n\n\nContacto\nGitHub"
+    "section": "Competencias y Stack Tecnológico",
+    "text": "Competencias y Stack Tecnológico\n\nEstadística y Ciencia de Datos: Preprocesamiento y Análisis Exploratorio (EDA), Análisis Geoestadístico (SIG/QGIS/ArcGIS), Modelos de Regresión Generalizados (GLM), Análisis de Supervivencia, Inferencia Bayesiana, PCA, Clustering (K-Means, LDA, MDA).\nHerramientas e Informática: Python (pandas, scikit-learn, Streamlit, NumPy, SciPy), R, SQL, LaTeX, Quarto, Git, Microsoft Office Avanzado.\nIdiomas: Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico)."
   },
   {
     "objectID": "proyectos/picnik.html",
@@ -165,42 +158,42 @@
     "href": "cv.html",
     "title": "Currículum Vitae",
     "section": "",
-    "text": "Descargar versión oficial en PDF (assets/cv-japt.pdf) (El archivo PDF se actualizará al incorporar la versión maestra oficial)."
+    "text": "Descargar CV en PDF (assets/cv-japt.pdf)   Descargar CV en Word (assets/CV_JAPT_ENERO2026.docx)"
   },
   {
     "objectID": "cv.html#perfil-profesional",
     "href": "cv.html#perfil-profesional",
     "title": "Currículum Vitae",
     "section": "Perfil Profesional",
-    "text": "Perfil Profesional\nCientífico de datos y estadístico aplicado con formación previa en física por la UNAM y especialización en estadística por el IIMAS. Experiencia en diseño e implementación de modelos predictivos, algoritmos de optimización lexicográfica, análisis de supervivencia y desarrollo de herramientas de software interactivas para la toma de decisiones en el sector público federal y privado."
+    "text": "Perfil Profesional\nEspecialista en Estadística Aplicada (IIMAS, UNAM) y Físico (Facultad de Ciencias, UNAM). A lo largo de mi experiencia profesional he desarrollado e implementado proyectos de clasificación, regresión y optimización aplicados en la automatización de procesos (SaaS B2B) y la toma de decisiones basada en datos (DDDM). Cuento con amplia experiencia en el seguimiento técnico de proyectos de investigación científica, diseño de encuestas, desarrollo de indicadores cuantitativos, modelos de regresión lineal generalizados (GLM), análisis de supervivencia y modelos de probabilidad bayesianos."
   },
   {
-    "objectID": "cv.html#experiencia-laboral",
-    "href": "cv.html#experiencia-laboral",
+    "objectID": "cv.html#experiencia-profesional",
+    "href": "cv.html#experiencia-profesional",
     "title": "Currículum Vitae",
-    "section": "Experiencia Laboral",
-    "text": "Experiencia Laboral\n\nAnalista Especializado / Científico de Datos\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)\nEnero 2025 – Presente | Ciudad de México\n\nDiseñé e implementé el algoritmo APEES (Algoritmo de Priorización con Equidad y Estructura Social), un motor de priorización lexicográfica sobre ~5,000 propuestas científicas para la asignación transparente y equitativa de fondos públicos.\nDesarrollé modelos formales de Análisis de Supervivencia (Kaplan-Meier y Cox Proportional Hazards) para caracterizar la distribución temporal de tiempos de respuesta de dictaminadores académicos.\nConstruí tableros de control estadísticos y pipelines automatizados para el seguimiento técnico de proyectos de investigación.\n\n\n\nAnalista Especializado\nConahcyt\nAgosto 2024 – Diciembre 2024 | Ciudad de México\n\nDiseñé pipelines de extracción documental con algoritmos OCR y validación automatizada de metadatos científicos mediante la API de Crossref.\nDesarrollé modelos estadísticos para el monitoreo de convocatorias institucionales.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024 | Ciudad de México\n\nDesarrollé soluciones geoespaciales para la reasignación óptima de zonas de reparto utilizando ArcGIS y Python.\nDiseñé modelos de clustering de clientes para segmentación comportamental y estrategias de retención.\n\n\n\nConsultor Cuantitativo\nGradiente\n2023 – Presente | Ciudad de México\n\nAnálisis cienciométrico, modelado estadístico y optimización de procesos para clientes de investigación y tecnología."
+    "section": "Experiencia Profesional",
+    "text": "Experiencia Profesional\n\nAnalista Especializado en Secihti\nSecretaría de Ciencia, Humanidades, Tecnología e Innovación (antes Conahcyt)\nEnero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera\n\nAnalista especializado en la Dirección de Investigación Científica Básica y de Frontera.\nDiseñé e implementé el algoritmo APEES (Algoritmo de Priorización con Equidad y Estructura Social) para la priorización lexicográfica de ~5,000 proyectos de investigación.\n\n\n\nAnalista Especializado en Conahcyt\nDirección de Ciencia de Frontera\nAgosto 2024 – Diciembre 2024\n\nParticipación en el seguimiento técnico de Convocatorias de Investigación Científica Básica (ministración, opiniones técnicas de informes, revisión de entregables y atención técnica a investigadores).\nAlgoritmo de OCR: Desarrollo e implementación de un pipeline de extracción automatizada de parámetros por contexto mediante la API de Microsoft Azure implementada en Python para documentos probatorios.\nValidación Crossref: Algoritmo de identificación de DOI en artículos científicos y extracción de metadatos vía API de Crossref para automatizar el conteo de publicaciones comprometidas por proyecto.\nRúbricas cuantitativas: Desarrollo de rúbricas basadas en pruebas estadísticas y criterios cuantitativos para revisión interna.\nAdministración de datos: Gestión de bases de datos, extracción automatizada e informes técnicos para más de 250 proyectos.\n\n\n\nData Science Analyst\nJüsto (Supermercado Digital)\nMarzo 2024 – Agosto 2024\n\nReasignación estratégica de zonas de reparto implementando la API de ArcGIS en Python.\nClusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).\nConstrucción de un índice cuantitativo para identificar productos propensos a falta de inventario (Never Stock Out).\n\n\n\nPrograma Adopte Un Talento (PAUTA)\nJulio 2023 – Agosto 2023\n\nProfesor en el curso de verano Científico."
   },
   {
-    "objectID": "cv.html#experiencia-docente",
-    "href": "cv.html#experiencia-docente",
+    "objectID": "cv.html#docencia-universitaria",
+    "href": "cv.html#docencia-universitaria",
     "title": "Currículum Vitae",
-    "section": "Experiencia Docente",
-    "text": "Experiencia Docente\n\nProfesor de Asignatura / Ayudante de Profesor\nFacultad de Ciencias, UNAM\n2019 – 2025 | Ciudad de México\n\nAsignaturas: Cálculo Diferencial e Integral I–IV, Termodinámica, Fenómenos Colectivos, Laboratorio de Mecánica y Laboratorio de Electromagnetismo.\nDivulgación: Tallerista en el programa Adopte Un Talento (PAUTA)."
+    "section": "Docencia Universitaria",
+    "text": "Docencia Universitaria\nFacultad de Ciencias, UNAM (2019 – 2025)\n\nProfesor: Cálculo Integral y Diferencial I (Semestre 2024-1).\nProfesor Adjunto (Matemáticas): Cálculo I (Semestres 2023-1, 2021-2), Cálculo II (Semestres 2023-2, 2022-1, 2021-3), Cálculo III (Semestres 2022-2, 2020-2) y Cálculo IV (Semestre 2021-1).\nProfesor Adjunto (Física): Termodinámica (Semestres 2025-2, 2025-1), Fenómenos Colectivos (Semestres 2024-2, 2024-1, 2023-3, 2023-2, 2023-1), Laboratorio de Mecánica (Semestre 2022-2) y Laboratorio de Electromagnetismo (Semestre 2019-1)."
   },
   {
     "objectID": "cv.html#formación-académica",
     "href": "cv.html#formación-académica",
     "title": "Currículum Vitae",
     "section": "Formación Académica",
-    "text": "Formación Académica\n\nEspecialización en Estadística Aplicada\nInstituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM (2023–2024)\nTitulado por Examen General de Conocimientos.\nLicenciatura en Física\nFacultad de Ciencias, UNAM (2015–2021)\nTesis: Espectrómetro didáctico de bajo costo con aplicaciones forenses."
+    "text": "Formación Académica\n\nEspecialización en Estadística Aplicada\nInstituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM (Agosto 2023 – Mayo 2024).\nTitulado por Examen General de Conocimientos.\nLicenciatura en Física\nFacultad de Ciencias, UNAM (Agosto 2015 – Agosto 2021).\nTesis: “Desarrollo de un espectrómetro didáctico de fotoemisión y Raman para caracterizar matlanina”. Presentada en el LXI Congreso Nacional de Física y en la XIII Reunión Anual de la AAPT-MX."
   },
   {
-    "objectID": "cv.html#idiomas-y-habilidades-técnicas",
-    "href": "cv.html#idiomas-y-habilidades-técnicas",
+    "objectID": "cv.html#competencias-técnicas",
+    "href": "cv.html#competencias-técnicas",
     "title": "Currículum Vitae",
-    "section": "Idiomas y Habilidades Técnicas",
-    "text": "Idiomas y Habilidades Técnicas\n\nIdiomas: Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico).\nLenguajes y Herramientas: Python (pandas, scikit-learn, Streamlit, NumPy), R (survival), SQL, LaTeX, Quarto, Git, QGIS/ArcGIS, Power BI."
+    "section": "Competencias Técnicas",
+    "text": "Competencias Técnicas\n\nEstadística y ML: EDA, Geo-estadística (SIG/QGIS/ArcGIS), Predictivos, Inferencia Bayesiana, Regresión Lineal Generalizada, PCA, Clustering (K-Means, LDA, MDA), Métodos Estadísticos para Machine Learning.\nInformática: Python, R, SQL, LaTeX, QGIS, Microsoft Office (Excel, Word, PowerPoint).\nIdiomas: Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico)."
   },
   {
     "objectID": "index.html",

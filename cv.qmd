@@ -4,72 +4,75 @@ subtitle: "Javier Arturo Paredes Tenorio"
 ---
 
 :::{.callout-note appearance="simple"}
-[Descargar versión oficial en PDF (assets/cv-japt.pdf)](assets/cv-japt.pdf){.btn .btn-primary target="_blank"} *(El archivo PDF se actualizará al incorporar la versión maestra oficial)*.
+[Descargar CV en PDF (assets/cv-japt.pdf)](assets/cv-japt.pdf){.btn .btn-primary target="_blank"} &nbsp;
+[Descargar CV en Word (assets/CV_JAPT_ENERO2026.docx)](assets/CV_JAPT_ENERO2026.docx){.btn .btn-outline-secondary target="_blank"}
 :::
 
 ---
 
 ## Perfil Profesional
 
-**Científico de datos y estadístico aplicado** con formación previa en física por la UNAM y especialización en estadística por el IIMAS. Experiencia en diseño e implementación de modelos predictivos, algoritmos de optimización lexicográfica, análisis de supervivencia y desarrollo de herramientas de software interactivas para la toma de decisiones en el sector público federal y privado.
+Especialista en Estadística Aplicada (IIMAS, UNAM) y Físico (Facultad de Ciencias, UNAM). A lo largo de mi experiencia profesional he desarrollado e implementado proyectos de clasificación, regresión y optimización aplicados en la automatización de procesos (SaaS B2B) y la toma de decisiones basada en datos (DDDM). Cuento con amplia experiencia en el seguimiento técnico de proyectos de investigación científica, diseño de encuestas, desarrollo de indicadores cuantitativos, modelos de regresión lineal generalizados (GLM), análisis de supervivencia y modelos de probabilidad bayesianos.
 
 ---
 
-## Experiencia Laboral
+## Experiencia Profesional
 
-### **Analista Especializado / Científico de Datos**
-**Secretaría de Ciencia, Humanidades, Tecnología e Innovación (Secihti, antes Conahcyt)**  
-*Enero 2025 – Presente | Ciudad de México*
+### **Analista Especializado en Secihti**
+**Secretaría de Ciencia, Humanidades, Tecnología e Innovación (antes Conahcyt)**  
+*Enero 2025 – Diciembre 2025 | Dirección de Investigación Científica Básica y de Frontera*
 
-- Diseñé e implementé el algoritmo **APEES** (*Algoritmo de Priorización con Equidad y Estructura Social*), un motor de priorización lexicográfica sobre ~5,000 propuestas científicas para la asignación transparente y equitativa de fondos públicos.
-- Desarrollé modelos formales de **Análisis de Supervivencia** (Kaplan-Meier y Cox Proportional Hazards) para caracterizar la distribución temporal de tiempos de respuesta de dictaminadores académicos.
-- Construí tableros de control estadísticos y pipelines automatizados para el seguimiento técnico de proyectos de investigación.
+- Analista especializado en la Dirección de Investigación Científica Básica y de Frontera.
+- Diseñé e implementé el algoritmo **APEES** (*Algoritmo de Priorización con Equidad y Estructura Social*) para la priorización lexicográfica de ~5,000 proyectos de investigación.
 
-### **Analista Especializado**
-**Conahcyt**  
-*Agosto 2024 – Diciembre 2024 | Ciudad de México*
+### **Analista Especializado en Conahcyt**
+**Dirección de Ciencia de Frontera**  
+*Agosto 2024 – Diciembre 2024*
 
-- Diseñé pipelines de extracción documental con algoritmos OCR y validación automatizada de metadatos científicos mediante la API de Crossref.
-- Desarrollé modelos estadísticos para el monitoreo de convocatorias institucionales.
+- Participación en el seguimiento técnico de Convocatorias de Investigación Científica Básica (ministración, opiniones técnicas de informes, revisión de entregables y atención técnica a investigadores).
+- **Algoritmo de OCR:** Desarrollo e implementación de un pipeline de extracción automatizada de parámetros por contexto mediante la API de Microsoft Azure implementada en Python para documentos probatorios.
+- **Validación Crossref:** Algoritmo de identificación de DOI en artículos científicos y extracción de metadatos vía API de Crossref para automatizar el conteo de publicaciones comprometidas por proyecto.
+- **Rúbricas cuantitativas:** Desarrollo de rúbricas basadas en pruebas estadísticas y criterios cuantitativos para revisión interna.
+- **Administración de datos:** Gestión de bases de datos, extracción automatizada e informes técnicos para más de 250 proyectos.
 
 ### **Data Science Analyst**
 **Jüsto (Supermercado Digital)**  
-*Marzo 2024 – Agosto 2024 | Ciudad de México*
+*Marzo 2024 – Agosto 2024*
 
-- Desarrollé soluciones geoespaciales para la reasignación óptima de zonas de reparto utilizando ArcGIS y Python.
-- Diseñé modelos de clustering de clientes para segmentación comportamental y estrategias de retención.
+- Reasignación estratégica de zonas de reparto implementando la API de ArcGIS en Python.
+- Clusterización de clientes según perfil de compra mediante K-Means y Análisis de Componentes Principales (PCA).
+- Construcción de un índice cuantitativo para identificar productos propensos a falta de inventario (*Never Stock Out*).
 
-### **Consultor Cuantitativo**
-**Gradiente**  
-*2023 – Presente | Ciudad de México*
+### **Programa Adopte Un Talento (PAUTA)**
+*Julio 2023 – Agosto 2023*
 
-- Análisis cienciométrico, modelado estadístico y optimización de procesos para clientes de investigación y tecnología.
+- Profesor en el curso de verano Científico.
 
 ---
 
-## Experiencia Docente
+## Docencia Universitaria
 
-### **Profesor de Asignatura / Ayudante de Profesor**
-**Facultad de Ciencias, UNAM**  
-*2019 – 2025 | Ciudad de México*
+**Facultad de Ciencias, UNAM (2019 – 2025)**
 
-- **Asignaturas:** Cálculo Diferencial e Integral I–IV, Termodinámica, Fenómenos Colectivos, Laboratorio de Mecánica y Laboratorio de Electromagnetismo.
-- **Divulgación:** Tallerista en el programa Adopte Un Talento (PAUTA).
+- **Profesor:** Cálculo Integral y Diferencial I (Semestre 2024-1).
+- **Profesor Adjunto (Matemáticas):** Cálculo I (Semestres 2023-1, 2021-2), Cálculo II (Semestres 2023-2, 2022-1, 2021-3), Cálculo III (Semestres 2022-2, 2020-2) y Cálculo IV (Semestre 2021-1).
+- **Profesor Adjunto (Física):** Termodinámica (Semestres 2025-2, 2025-1), Fenómenos Colectivos (Semestres 2024-2, 2024-1, 2023-3, 2023-2, 2023-1), Laboratorio de Mecánica (Semestre 2022-2) y Laboratorio de Electromagnetismo (Semestre 2019-1).
 
 ---
 
 ## Formación Académica
 
 - **Especialización en Estadística Aplicada**  
-  *Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM* (2023–2024)  
+  *Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM* (Agosto 2023 – Mayo 2024).  
   *Titulado por Examen General de Conocimientos.*
 - **Licenciatura en Física**  
-  *Facultad de Ciencias, UNAM* (2015–2021)  
-  *Tesis:* Espectrómetro didáctico de bajo costo con aplicaciones forenses.
+  *Facultad de Ciencias, UNAM* (Agosto 2015 – Agosto 2021).  
+  *Tesis:* "Desarrollo de un espectrómetro didáctico de fotoemisión y Raman para caracterizar matlanina". Presentada en el LXI Congreso Nacional de Física y en la XIII Reunión Anual de la AAPT-MX.
 
 ---
 
-## Idiomas y Habilidades Técnicas
+## Competencias Técnicas
 
+- **Estadística y ML:** EDA, Geo-estadística (SIG/QGIS/ArcGIS), Predictivos, Inferencia Bayesiana, Regresión Lineal Generalizada, PCA, Clustering (K-Means, LDA, MDA), Métodos Estadísticos para Machine Learning.
+- **Informática:** Python, R, SQL, LaTeX, QGIS, Microsoft Office (Excel, Word, PowerPoint).
 - **Idiomas:** Español (Nativo), Inglés (C1 Avanzado), Alemán (A2 Básico).
-- **Lenguajes y Herramientas:** Python (`pandas`, `scikit-learn`, `Streamlit`, `NumPy`), R (`survival`), SQL, LaTeX, Quarto, Git, QGIS/ArcGIS, Power BI.
